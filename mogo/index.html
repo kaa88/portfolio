@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MoGo</title>
+	<meta name="description" content="">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/detect.min.js"></script>
+	<link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<noscript>
+		<div class="noscript-alert">
+			<p>For full functionality of this site it is necessary to enable JavaScript.<br>Here are the <a href="https://www.enable-javascript.com/">instructions how to enable JavaScript in your web browser</a>.</p><br>
+			<p>Для полной функциональности этого сайта необходимо включить JavaScript.<br>Вот <a href="https://www.enable-javascript.com/ru/">инструкции, как включить JavaScript в вашем браузере</a>.</p>
+		</div>
+	</noscript>
+	<header class="banner">
+		<div class="banner__bg bg"></div>
+		<div class="container">
+			<nav class="banner__menu menu">
+				<div class="menu__logo">MoGo</div>
+				<div class="menu__burger" onclick="toggleMenuElement('links')"><span></span></div>
+				<div class="menu__links">
+					<a class="menu__link" href="#">ABOUT</a>
+					<a class="menu__link" href="#">SERVICE</a>
+					<a class="menu__link" href="#">WORK</a>
+					<a class="menu__link" href="#">BLOG</a>
+					<a class="menu__link" href="#">CONTACT</a>
+				</div>
+				<div class="menu__icons">
+					<div class="menu__icon" id="cart-btn" onclick="toggleMenuElement('cart')">
+						<i class="icon-cart"></i>
+					</div>
+					<div class="menu__icon" id="search-btn" onclick="toggleMenuElement('search')">
+						<i class="icon-search"></i>
+					</div>
+					<div class="menu__cart cart">
+						<div class="cart__items">
+							<div class="cart__item">
+								<div class="cart__img"></div>
+								<a class="cart__link" href="#">Lorem ipsum, dolor sit amet consectetur.</a>
+							</div>
+							<div class="cart__item">
+								<div class="cart__img"></div>
+								<a class="cart__link" href="#">Lorem, ipsum dolor.</a>
+							</div>
+							<a class="cart__order" href="#">MAKE AN ORDER</a>
+						</div>
+					</div>
+					<div class="menu__search search">
+						<input class="search__input" type="text" placeholder="Search...">
+						<button class="search__btn">
+							<i class="icon-search"></i>
+						</button>
+					</div>
+				</div>
+			</nav>
+			<div class="banner__main-box main-box">
+				<h1 class="main-box__title">Creative Template</h1>
+				<p class="main-box__subtitle">WELCOME TO MOGO</p>
+				<div class="main-box__devider devider"></div>
+				<br>
+				<div class="main-box__button" onclick="scrollToTarget(1)">LEARN MORE</div>
+			</div>
+
+			<nav class="banner__bottom">
+				<ul class="banner__scroll-nav scroll-nav">
+					<li class="scroll-nav__item" onclick="scrollToTarget(0)">
+						<div class="scroll-nav__line">
+							<div class="scroll-nav__line-inner"></div>
+						</div>
+						<div class="scroll-nav__link"><span>01</span> INTRO</div>
+					</li>
+					<li class="scroll-nav__item" onclick="scrollToTarget(2)">
+						<div class="scroll-nav__line">
+							<div class="scroll-nav__line-inner"></div>
+						</div>
+						<div class="scroll-nav__link"><span>02</span> WORK</div>
+					</li>
+					<li class="scroll-nav__item" onclick="scrollToTarget(3)">
+						<div class="scroll-nav__line">
+							<div class="scroll-nav__line-inner"></div>
+						</div>
+						<div class="scroll-nav__link"><span>03</span> ABOUT</div>
+					</li>
+					<li class="scroll-nav__item" onclick="scrollToTarget(4)">
+						<div class="scroll-nav__line">
+							<div class="scroll-nav__line-inner"></div>
+						</div>
+						<div class="scroll-nav__link"><span>04</span> CONTACTS</div>
+					</li>
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+	<section class="about">
+		<div class="container">
+			<header class="about__sect-head sect-head">
+				<h2 class="sect-head__title">What we do</h2>
+				<h3 class="sect-head__subtitle">STORY ABOUT US
+				</h3>
+				<div class="sect-head__devider devider"></div>
+				<p class="sect-head__text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+			</header>
+			<div class="about__interactive-images interactive-images">
+				<div class="interactive-images__item">
+					<div class="interactive-images__active-box">
+						<div class="interactive-images__back"></div>
+						<div class="interactive-images__front">
+							<img class="interactive-images__img" src="img/about-1.jpg" alt="" loading="lazy">
+							<div class="interactive-images__inner-box">
+								<a class="interactive-images__link" href="#">
+									<i class="icon-users"></i>
+									<br>SUPER TEAM
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="interactive-images__item">
+					<div class="interactive-images__active-box">
+						<div class="interactive-images__back"></div>
+						<div class="interactive-images__front">
+							<img class="interactive-images__img" src="img/about-2.jpg" alt="" loading="lazy">
+							<div class="interactive-images__inner-box">
+								<a class="interactive-images__link" href="#">
+									<i class="icon-users"></i>
+									<br>COOL TEAM
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="interactive-images__item">
+					<div class="interactive-images__active-box">
+						<div class="interactive-images__back"></div>
+						<div class="interactive-images__front">
+							<img class="interactive-images__img" src="img/about-3.jpg" alt="" loading="lazy">
+							<div class="interactive-images__inner-box">
+								<a class="interactive-images__link" href="#">
+									<i class="icon-users"></i>
+									<br>AWESOME TEAM
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="facts">
+		<div class="container">
+			<div class="facts__item">
+				<p class="facts__num">42</p>
+				<p class="facts__text">WEB DESIGN PROJECTS</p>
+			</div>
+			<div class="facts__item">
+				<p class="facts__num">123</p>
+				<p class="facts__text">HAPPY CLIENT</p>
+			</div>
+			<div class="facts__item">
+				<p class="facts__num">15</p>
+				<p class="facts__text">AWARD WINNER</p>
+			</div>
+			<div class="facts__item">
+				<p class="facts__num">99</p>
+				<p class="facts__text">CUP OF COFFEE</p>
+			</div>
+			<div class="facts__item">
+				<p class="facts__num">24</p>
+				<p class="facts__text">MEMBERS</p>
+			</div>
+		</div>
+	</section>
+	<section class="skills">
+		<div class="container">
+			<header class="skills__sect-head sect-head">
+				<h2 class="sect-head__title">We work with</h2>
+				<h3 class="sect-head__subtitle">AMAZING SERVICES</h3>
+				<div class="sect-head__devider devider"></div>
+			</header>
+			<div class="skills__skill-box skill-box">
+				<div class="skill-box__item">
+					<div class="skill-box__item-pic"><i class="icon-alarm"></i></div>
+					<p class="skill-box__item-title">PHOTOGRAPHY</p>
+					<p class="skill-box__item-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+					</p>
+				</div>
+				<div class="skill-box__item">
+					<div class="skill-box__item-pic"><i class="icon-graph"></i></div>
+					<p class="skill-box__item-title">WEB DESIGN</p>
+					<p class="skill-box__item-text">
+						Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+					</p>
+				</div>
+				<div class="skill-box__item">
+					<div class="skill-box__item-pic"><i class="icon-comp"></i></div>
+					<p class="skill-box__item-title">CREATIVITY</p>
+					<p class="skill-box__item-text">
+						Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+					</p>
+				</div>
+				<div class="skill-box__item">
+					<div class="skill-box__item-pic"><i class="icon-book"></i></div>
+					<p class="skill-box__item-title">SEO</p>
+					<p class="skill-box__item-text">
+						Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+					</p>
+				</div>
+				<div class="skill-box__item">
+					<div class="skill-box__item-pic"><i class="icon-home"></i></div>
+					<p class="skill-box__item-title">CSS/HTML</p>
+					<p class="skill-box__item-text">
+						Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.
+					</p>
+				</div>
+				<div class="skill-box__item">
+					<div class="skill-box__item-pic"><i class="icon-image"></i></div>
+					<p class="skill-box__item-title">DIGITAL</p>
+					<p class="skill-box__item-text">
+						Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="feature">
+		<div class="feature__bg bg"></div>
+		<div class="container">
+			<header class="feature__sect-head sect-head">
+				<h2 class="sect-head__title">For all devices</h2>
+				<h3 class="sect-head__subtitle">UNIQUE DESIGN</h3>
+				<div class="sect-head__devider devider"></div>
+			</header>
+			<div class="feature__device-box">
+				<img class="feature__tab" src="img/feature-tab.png" alt="" loading="lazy">
+				<img class="feature__mob" src="img/feature-mob.png" alt="" loading="lazy">
+			</div>
+		</div>
+	</section>
+	<section class="service">
+		<div class="container">
+			<header class="service__sect-head sect-head">
+				<h2 class="sect-head__title">Service</h2>
+				<h3 class="sect-head__subtitle">WHAT WE DO</h3>
+				<div class="sect-head__devider devider"></div>
+				<p class="sect-head__text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+			</header>
+			<div class="service__content">
+				<div class="service__image">
+					<img src="img/service-1.jpg" alt="" loading="lazy">
+				</div>
+				<div class="service__s-info-box s-info-box">
+					<input class="s-info-box__radio" type="radio" name="sibr" id="sibr1" checked>
+					<label class="s-info-box__item" for="sibr1">
+						<div class="s-info-box__title">
+							<i class="icon-picture"></i>
+							<p>PHOTOGRAPHY</p>
+							<i class="s-info-box__arrow icon-arrow"></i>
+						</div>
+						<div class="s-info-box__text">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+								esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+								cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
+								id est laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+								Doloribus eligendi, tempora commodi voluptate voluptatibus dolores voluptatum 
+								quis et soluta vero.
+							</p>
+						</div>
+					</label>
+					<input class="s-info-box__radio" type="radio" name="sibr" id="sibr2">
+					<label class="s-info-box__item" for="sibr2">
+						<div class="s-info-box__title">
+							<i class="icon-equalizer"></i>
+							<p>CREATIVITY</p>
+							<i class="s-info-box__arrow icon-arrow"></i>
+						</div>
+						<div class="s-info-box__text">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+								esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+								cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
+								id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+								esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+								cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
+								id est laborum.
+							</p>
+						</div>
+					</label>
+					<input class="s-info-box__radio" type="radio" name="sibr" id="sibr3">
+					<label class="s-info-box__item" for="sibr3">
+						<div class="s-info-box__title">
+							<i class="icon-bullseye"></i>
+							<p>WEB DESIGN</p>
+							<i class="s-info-box__arrow icon-arrow"></i>
+						</div>
+						<div class="s-info-box__text">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+								consequat.
+							</p>
+						</div>
+					</label>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="quote quote--dark">
+		<div class="container">
+			<div class="quote__slider">
+				<div class="quote__arr-left">
+					<i class="quote__arr-left-in icon-arrow"></i>
+				</div>
+				<div class="quote__slider-box">
+					<div class="quote__slide">
+						<div class="quote__img quote__img--icon">
+							<i class="icon-speech"></i>
+						</div>
+						<div class="quote__content">
+							<p class="quote__text">
+								“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation.”
+							</p>
+							<div class="quote__devider devider"></div>
+							<p class="quote__sign">Jon Doe</p>
+						</div>
+					</div>
+					<div class="quote__slide">
+						<div class="quote__img quote__img--photo">
+							<img src="img/quote-photo.jpg" alt="" loading="lazy">
+						</div>
+						<div class="quote__content">
+							<p class="quote__text">
+								“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation.”
+							</p>
+							<div class="quote__devider devider"></div>
+							<p class="quote__sign">Joshua Earle</p>
+						</div>
+					</div>
+					<div class="quote__slide">
+						<div class="quote__img quote__img--photo">
+							<img src="img/work-1.jpg" alt="" loading="lazy">
+						</div>
+						<div class="quote__content">
+							<p class="quote__text">
+								“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+								tempor incididunt.”
+							</p>
+							<div class="quote__devider devider"></div>
+							<p class="quote__sign">John Smith</p>
+						</div>
+					</div>
+				</div>
+				<div class="quote__arr-right">
+					<i class="quote__arr-right-in icon-arrow"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="team">
+		<div class="container">
+			<header class="team__sect-head sect-head">
+				<h2 class="sect-head__title">Who we are</h2>
+				<h3 class="sect-head__subtitle">MEET OUR TEAM</h3>
+				<div class="sect-head__devider devider"></div>
+				<p class="sect-head__text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+			</header>
+			<div class="team__interactive-images interactive-images">
+				<div class="interactive-images__item">
+					<div class="interactive-images__active-box interactive-images__active-box--big">
+						<div class="interactive-images__back"></div>
+						<div class="interactive-images__front">
+							<img class="interactive-images__img" src="img/team-1.jpg" alt="" loading="lazy">
+							<div class="interactive-images__inner-box">
+								<div class="interactive-images__socials">
+									<a class="interactive-images__social-link" href="#">
+										<i class="icon-facebook"></i>
+									</a>
+									<a class="interactive-images__social-link" href="#">
+										<i class="icon-twitter"></i>
+									</a>
+									<a class="interactive-images__social-link" href="#">
+										<i class="icon-pinterest"></i>
+									</a>
+									<a class="interactive-images__social-link" href="#">
+										<i class="icon-instagram"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<p class="interactive-images__name">MATTHEW DIX</p>
+					<p class="interactive-images__prof">Graphic Design</p>
+				</div>
+				<div class="interactive-images__item">
+					<div class="interactive-images__active-box interactive-images__active-box--big">
+						<div class="interactive-images__back"></div>
+						<div class="interactive-images__front">
+							<img class="interactive-images__img" src="img/team-2.jpg" alt="" loading="lazy">
+							<div class="interactive-images__inner-box">
+								<div class="interactive-images__socials">
+									<a class="interactive-images__social-link" href="#">
+										<i class="icon-facebook"></i>
+									</a>
+									<a class="interactive-images__social-link" href="#">
+										<i class="icon-twitter"></i>
+									</a>
+									<a class="interactive-images__social-link" href="#">
+										<i class="icon-pinterest"></i>
+									</a>
+									<a class="interactive-images__social-link" href="#">
+										<i class="icon-instagram"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<p class="interactive-images__name">CHRISTOPHER CAMPBELL</p>
+					<p class="interactive-images__prof">Branding/UX design</p>
+				</div>
+				<div class="interactive-images__item">
+					<div class="interactive-images__active-box interactive-images__active-box--big">
+						<div class="interactive-images__back"></div>
+						<div class="interactive-images__front">
+							<img class="interactive-images__img" src="img/team-3.jpg" alt="" loading="lazy">
+							<div class="interactive-images__inner-box">
+								<div class="interactive-images__socials">
+									<a class="interactive-images__social-link" href="#">
+										<i class="icon-facebook"></i>
+									</a>
+									<a class="interactive-images__social-link" href="#">
+										<i class="icon-twitter"></i>
+									</a>
+									<a class="interactive-images__social-link" href="#">
+										<i class="icon-pinterest"></i>
+									</a>
+									<a class="interactive-images__social-link" href="#">
+										<i class="icon-instagram"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<p class="interactive-images__name">MICHAEL FERTIG</p>
+					<p class="interactive-images__prof">Developer</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="logos">
+		<div class="container">
+			<img class="logos__item" src="img/logos-1.png" alt="" loading="lazy">
+			<img class="logos__item" src="img/logos-2.png" alt="" loading="lazy">
+			<img class="logos__item" src="img/logos-3.png" alt="" loading="lazy">
+			<img class="logos__item" src="img/logos-4.png" alt="" loading="lazy">
+			<img class="logos__item" src="img/logos-5.png" alt="" loading="lazy">
+			<img class="logos__item" src="img/logos-6.png" alt="" loading="lazy">
+		</div>
+	</section>
+	<section class="work">
+		<div class="container">
+			<header class="work__sect-head sect-head">
+				<h2 class="sect-head__title">What we do</h2>
+				<h3 class="sect-head__subtitle">SOME OF OUR WORK</h3>
+				<div class="sect-head__devider devider"></div>
+				<p class="sect-head__text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+			</header>
+		</div>
+		<div class="work__examples examples">
+			<div class="examples__item">
+				<img class="examples__image" src="img/work-1.jpg" alt="" loading="lazy">
+				<a class="examples__inner-box" href="#">
+					<i class="examples__icon icon-picture"></i>
+					<p class="examples__title">CREATIVELY DESIGNED</p>
+					<p class="examples__text">Lorem ipsum dolor sit</p>
+				</a>
+			</div>
+			<div class="examples__item">
+				<img class="examples__image" src="img/work-2.jpg" alt="" loading="lazy">
+				<a class="examples__inner-box" href="#">
+					<i class="examples__icon icon-picture"></i>
+					<p class="examples__title">CREATIVELY DESIGNED</p>
+					<p class="examples__text">Lorem ipsum dolor sit</p>
+				</a>
+			</div>
+			<div class="examples__item examples__item--span">
+				<img class="examples__image" src="img/work-3.jpg" alt="" loading="lazy">
+				<a class="examples__inner-box" href="#">
+					<i class="examples__icon icon-picture"></i>
+					<p class="examples__title">CREATIVELY DESIGNED</p>
+					<p class="examples__text">Lorem ipsum dolor sit</p>
+				</a>
+			</div>
+			<div class="examples__item">
+				<img class="examples__image" src="img/work-4.jpg" alt="" loading="lazy">
+				<a class="examples__inner-box" href="#">
+					<i class="examples__icon icon-picture"></i>
+					<p class="examples__title">CREATIVELY DESIGNED</p>
+					<p class="examples__text">Lorem ipsum dolor sit</p>
+				</a>
+			</div>
+			<div class="examples__item">
+				<img class="examples__image" src="img/work-5.jpg" alt="" loading="lazy">
+				<a class="examples__inner-box" href="#">
+					<i class="examples__icon icon-picture"></i>
+					<p class="examples__title">CREATIVELY DESIGNED</p>
+					<p class="examples__text">Lorem ipsum dolor sit</p>
+				</a>
+			</div>
+			<div class="examples__item">
+				<img class="examples__image" src="img/work-6.jpg" alt="" loading="lazy">
+				<a class="examples__inner-box" href="#">
+					<i class="examples__icon icon-picture"></i>
+					<p class="examples__title">CREATIVELY DESIGNED</p>
+					<p class="examples__text">Lorem ipsum dolor sit</p>
+				</a>
+			</div>
+			<div class="examples__item examples__item--span">
+				<img class="examples__image" src="img/work-7-2.jpg" alt="" loading="lazy">
+				<a class="examples__inner-box" href="#">
+					<i class="examples__icon icon-picture"></i>
+					<p class="examples__title">CREATIVELY DESIGNED</p>
+					<p class="examples__text">Lorem ipsum dolor sit</p>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section class="quote quote--margined">
+		<div class="container">
+			<div class="quote__slider">
+				<div class="quote__arr-left">
+					<i class="quote__arr-left-in icon-arrow"></i>
+				</div>
+				<div class="quote__slider-box">
+					<div class="quote__slide">
+						<div class="quote__img quote__img--photo">
+							<img src="img/quote-photo.jpg" alt="" loading="lazy">
+						</div>
+						<div class="quote__content">
+							<p class="quote__text">
+								“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation.”
+							</p>
+							<div class="quote__devider devider"></div>
+							<p class="quote__sign">Joshua Earle</p>
+						</div>
+					</div>
+					<div class="quote__slide">
+						<div class="quote__img quote__img--icon">
+							<i class="icon-speech"></i>
+						</div>
+						<div class="quote__content">
+							<p class="quote__text">
+								“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+								quis nostrud exercitation.”
+							</p>
+							<div class="quote__devider devider"></div>
+							<p class="quote__sign">Jon Doe</p>
+						</div>
+					</div>
+				</div>
+				<div class="quote__arr-right">
+					<i class="quote__arr-right-in icon-arrow"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="clients">
+		<div class="clients__bg bg"></div>
+		<div class="container">
+			<header class="clients__sect-head sect-head">
+				<h2 class="sect-head__title">Happy Clients</h2>
+				<h3 class="sect-head__subtitle">WHAT PEOPLE SAY</h3>
+				<div class="sect-head__devider devider"></div>
+			</header>
+			<div class="clients__box">
+				<div class="clients__feedback feedback">
+					<div class="feedback__photo">
+						<img src="img/clients-1.jpg" alt="" loading="lazy">
+					</div>
+					<div class="feedback__header">
+						<p class="feedback__name">MATTHEW DIX</p>
+						<p class="feedback__prof">Graphic Design</p>
+						<div class="feedback__devider devider"></div>
+					</div>
+					<p class="feedback__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+					</p>
+				</div>
+				<div class="clients__feedback feedback">
+					<div class="feedback__photo">
+						<img src="img/clients-2.jpg" alt="" loading="lazy">
+					</div>
+					<div class="feedback__header">
+						<p class="feedback__name">NICK KARVOUNIS</p>
+						<p class="feedback__prof">Graphic Design</p>
+						<div class="feedback__devider devider"></div>
+					</div>
+					<p class="feedback__text">
+						Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+						et dolore magna aliqua. Ut enim ad minim veniam
+					</p>
+				</div>
+				<div class="clients__feedback feedback">
+					<div class="feedback__photo">
+						<img src="img/clients-3.jpg" alt="" loading="lazy">
+					</div>
+					<div class="feedback__header">
+						<p class="feedback__name">JAELYNN CASTILLO</p>
+						<p class="feedback__prof">Graphic Design</p>
+						<div class="feedback__devider devider"></div>
+					</div>
+					<p class="feedback__text">
+						Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+						ut labore et dolore magna aliqua. Ut enim ad minim veniam
+					</p>
+				</div>
+				<div class="clients__feedback feedback">
+					<div class="feedback__photo">
+						<img src="img/clients-4.jpg" alt="" loading="lazy">
+					</div>
+					<div class="feedback__header">
+						<p class="feedback__name">MIKE PETRUCCI</p>
+						<p class="feedback__prof">Graphic Design</p>
+						<div class="feedback__devider devider"></div>
+					</div>
+					<p class="feedback__text">
+						Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+						labore et dolore magna aliqua. Ut enim ad minim.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="blog">
+		<div class="container">
+			<header class="blog__sect-head sect-head">
+				<h2 class="sect-head__title">Our stories</h2>
+				<h3 class="sect-head__subtitle">LATEST BLOG</h3>
+				<div class="sect-head__devider devider"></div>
+			</header>
+			<div class="blog__post-box">
+				<div class="blog__post post">
+					<div class="post__header">
+						<div class="post__img">
+							<img src="img/blog-1.jpg" alt="" loading="lazy">
+						</div>
+						<div class="post__date">
+							<p class="post__day">15</p>
+							<p class="post__month">Jan</p>
+						</div>
+					</div>
+					<a class="post__title" href="#">LOREM IPSUM DOLOR SIT AMET</a>
+					<p class="post__text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+					labore et dolore magna aliqua.</p>
+					<div class="post__counts">
+						<i class="post__icon icon-view"></i>
+						<p class="post__viewers">542</p>
+						<i class="post__icon icon-bubble"></i>
+						<p class="post__comments">17</p>
+					</div>
+				</div>
+				<div class="blog__post post">
+					<div class="post__header">
+						<div class="post__img">
+							<img src="img/blog-2.jpg" alt="" loading="lazy">
+						</div>
+						<div class="post__date">
+							<p class="post__day">14</p>
+							<p class="post__month">Jan</p>
+						</div>
+					</div>
+					<a class="post__title" href="#">SED DO EIUSMOD TEMPOR</a>
+					<p class="post__text">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+					dolore magna aliqua.</p>
+					<div class="post__counts">
+						<i class="post__icon icon-view"></i>
+						<p class="post__viewers">992</p>
+						<i class="post__icon icon-bubble"></i>
+						<p class="post__comments">42</p>
+					</div>
+				</div>
+				<div class="blog__post post">
+					<div class="post__header">
+						<div class="post__img">
+							<img src="img/blog-3.jpg" alt="" loading="lazy">
+						</div>
+						<div class="post__date">
+							<p class="post__day">12</p>
+							<p class="post__month">Jan</p>
+						</div>
+					</div>
+					<a class="post__title" href="#">INCIDIDUNT UT LABORE ET DOLORE</a>
+					<p class="post__text">Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class="post__counts">
+						<i class="post__icon icon-view"></i>
+						<p class="post__viewers">1560</p>
+						<i class="post__icon icon-bubble"></i>
+						<p class="post__comments">98</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="map">
+		<div class="map__bg bg"></div>
+		<div class="map__box">
+			<div class="map__pointer">
+				<i class="icon-map"></i>
+			<a class="map__link" href="#">OPEN MAP</a>
+			<div class="map__devider devider"></div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__foot-info">
+				<div class="foot-info__logo">MoGo</div>
+				<p class="foot-info__text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+					exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+			</div>
+			<div class="footer__follow follow">
+				<p class="follow__followers"><span>15k</span> followers</p>
+				<div class="follow__social-links social-links">
+					<p class="social-links__text">Follow Us:</p>
+					<a class="social-links__link" href="#">
+						<i class="icon-facebook"></i>
+					</a>
+					<a class="social-links__link" href="#">
+						<i class="icon-twitter"></i>
+					</a>
+					<a class="social-links__link" href="#">
+						<i class="icon-instagram"></i>
+					</a>
+					<a class="social-links__link" href="#">
+						<i class="icon-pinterest"></i>
+					</a>
+					<a class="social-links__link" href="#">
+						<i class="icon-google-plus"></i>
+					</a>
+					<a class="social-links__link" href="#">
+						<i class="icon-youtube"></i>
+					</a>
+					<a class="social-links__link" href="#">
+						<i class="icon-dribbble"></i>
+					</a>
+					<a class="social-links__link" href="#">
+						<i class="icon-tumblr"></i>
+					</a>
+				</div>
+				<form class="follow__subscribe subscribe" action="#">
+					<input class="subscribe__input" type="text" placeholder="Your Email...">
+					<input class="subscribe__btn" type="submit" value="SUBSCRIBE">
+				</form>
+			</div>
+			<div class="footer__other-blogs other-blogs">
+				<p class="other-blogs__title">BLOGS</p>
+				<div class="other-blogs__item">
+					<img class="other-blogs__img" src="img/blog-mini-1.jpg" alt="" loading="lazy">
+					<div class="other-blogs__content">
+						<a class="other-blogs__post-title" href="#">
+							LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING
+						</a>
+						<p class="other-blogs__post-date">Jan 9, 2016</p>
+					</div>
+				</div>
+				<div class="other-blogs__item">
+					<img class="other-blogs__img" src="img/blog-mini-2.jpg" alt="" loading="lazy">
+					<div class="other-blogs__content">
+						<a class="other-blogs__post-title" href="#">
+							CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR
+						</a>
+						<p class="other-blogs__post-date">Jan 9, 2016</p>
+					</div>
+				</div>
+				<div class="other-blogs__item">
+					<img class="other-blogs__img" src="img/blog-mini-3.jpg" alt="" loading="lazy">
+					<div class="other-blogs__content">
+						<a class="other-blogs__post-title" href="#">
+							SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE
+						</a>
+						<p class="other-blogs__post-date">Jan 9, 2016</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer__insta insta">
+				<p class="insta__title">INSTAGRAM</p>
+				<div class="insta__photos">
+					<img src="img/photos-1.jpg" alt="" loading="lazy">
+					<img src="img/photos-2.jpg" alt="" loading="lazy">
+					<img src="img/photos-3.jpg" alt="" loading="lazy">
+					<img src="img/photos-4.jpg" alt="" loading="lazy">
+					<img src="img/photos-5.jpg" alt="" loading="lazy">
+					<img src="img/photos-6.jpg" alt="" loading="lazy">
+					<img src="img/photos-7.jpg" alt="" loading="lazy">
+					<img src="img/photos-8.jpg" alt="" loading="lazy">
+					<img src="img/photos-9.jpg" alt="" loading="lazy">
+				</div>
+				<p class="insta__more">
+					<a href="#">View more photos</a>
+				</p>
+			</div>
+		</div>
+		<div class="footer__copy">
+			<p>&copy; 2016 MoGo free PSD template by&nbsp;<span>Laaqiq</span></p>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>

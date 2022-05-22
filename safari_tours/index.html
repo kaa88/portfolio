@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Safari Tour</title>
+	<meta name="description" content="International Tour packages">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<noscript>
+	<div class="noscript-alert">
+		<p>For full functionality of this site it is necessary to enable JavaScript.<br>Here are the <a href="https://www.enable-javascript.com/">instructions how to enable JavaScript in your web browser</a>.</p><br>
+		<p>Для полной функциональности этого сайта необходимо включить JavaScript.<br>Вот <a href="https://www.enable-javascript.com/ru/">инструкции, как включить JavaScript в вашем браузере</a>.</p>
+	</div>
+</noscript>
+
+<main class="page">
+	<header class="header">
+		<div class="header__container container">
+			<div class="header__bg"></div>
+			<div class="header__logo logo">
+				<h1 class="logo__title">Safari Tour</h1>
+				<h2 class="logo__subtitle">International Tour packages</h2>
+			</div>
+			<nav class="header__menu menu">
+				<div class="menu__menu-open-btn"><span></span></div>
+				<div class="menu__container">
+					<ul class="menu__items">
+						<li class="menu__item" data-name="home">
+							<a class="menu__link" href="index.html">Home</a>
+						</li>
+						<li class="menu__item" data-name="packages">
+							<a class="menu__link" href="packages.html">Packages</a>
+						</li>
+						<li class="menu__item" data-name="flights">
+							<a class="menu__link" href="#">Flights</a>
+						</li>
+						<li class="menu__item" data-name="trains">
+							<a class="menu__link" href="#">Trains</a>
+						</li>
+						<li class="menu__item" data-name="reach">
+							<a class="menu__link" href="#">Reach us</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="header__print-address">safaritour.com</div>
+		</div>
+	</header>
+	<div class="menu-turn-off-area"></div>
+
+	<script id="headerMenuOptions">
+		// let headerMenuOptions = null;
+		// or
+		let headerMenuOptions = {
+			links: ['home','packages','flights','trains','reach'],
+			activeLink: 'home'
+		}
+	</script>
+
+	<main class="content">
+		<section class="banner">
+			<div class="banner__bg">
+				<div class="banner__bg-top">
+					<img src="img/rays.png" alt="">
+				</div>
+				<div class="banner__bg-bottom">
+					<div class="banner__bg-cloud cloud">
+						<div></div>
+						<img src="img/cloud-2.png" alt="">
+						<div></div>
+					</div>
+				</div>
+			</div>
+			<div class="banner__container container">
+				<div class="banner__swiper swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="swiper-slide__image">
+								<img class="swiper-slide__image-cloud" src="img/cloud-3.png" alt="">
+								<img class="swiper-slide__image-plane" src="img/aeroplane.png" alt="">
+							</div>
+							<div class="swiper-slide__content">
+								<h3 class="swiper-slide__content-title">SINGAPORE</h3>
+								<p class="swiper-slide__content-text">
+									Malaysia Singapore<br>Super Saver Summer 2011
+								</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide__image">
+								<img class="swiper-slide__image-cloud" src="img/cloud-3.png" alt="">
+								<img class="swiper-slide__image-plane" src="img/aeroplane.png" alt="">
+							</div>
+							<div class="swiper-slide__content">
+								<h3 class="swiper-slide__content-title">NAIROBI</h3>
+								<p class="swiper-slide__content-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide__image">
+								<img class="swiper-slide__image-cloud" src="img/cloud-3.png" alt="">
+								<img class="swiper-slide__image-plane" src="img/aeroplane.png" alt="">
+							</div>
+							<div class="swiper-slide__content">
+								<h3 class="swiper-slide__content-title">MEXICO</h3>
+								<p class="swiper-slide__content-text">
+									Lorem ipsum dolor adipisicing elit.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-prev"><i class="icon-play"></i></div>
+					<div class="swiper-button-next"><i class="icon-play"></i></div>
+				</div>
+				<div class="banner__booking booking">
+					<div class="booking__header">Online Booking</div>
+					<div class="booking__booking-form booking-form">
+						<label class="booking-form__item">
+							<span class="booking-form__text">Name :</span>
+							<input class="booking-form__input" type="text">
+						</label>
+						<label class="booking-form__item">
+							<span class="booking-form__text">email :</span>
+							<input class="booking-form__input" type="text">
+						</label>
+						<label class="booking-form__item">
+							<span class="booking-form__text">Package :</span>
+
+							<div class="booking-form__select select">
+								<div class="select__header">
+									<span class="select__header-text">Select...</span>
+									<span class="select__header-icon"><i class="icon-play"></i></span>
+								</div>
+								<div class="select__list-wrapper">
+									<ul class="select__list">
+										<li class="select__option">Africa Packages</li>
+										<li class="select__option">Asia Packages</li>
+										<li class="select__option">America Packages</li>
+										<li class="select__option">Australia Packages</li>
+									</ul>
+								</div>
+							</div>
+
+						</label>
+						<label class="booking-form__item">
+							<span class="booking-form__text">message :</span>
+							<textarea class="booking-form__texa"></textarea>
+						</label>
+						<button class="booking-form__button button">Submit</button>
+					</div>
+					<div class="booking__image"><img src="img/ladder.png" alt=""></div>
+				</div>
+			</div>
+		</section>
+		<section class="offers">
+			<div class="offers__cloud cloud">
+				<div></div>
+				<img src="img/cloud-1.png" alt="">
+				<div></div>
+			</div>
+			<div class="offers__container container">
+				<div class="offers__cards offers__cards--vertical">
+					<h3 class="offers__cards-title">Our special offers</h3>
+					<div class="offers__tour-card tour-card">
+						<div class="tour-card__info">
+							<div class="tour-card__photo"><img src="img/photo-s-1.png" alt="photo"></div>
+							<p class="tour-card__title">1914 translation</p>
+							<p class="tour-card__text">
+								But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+							</p>
+						</div>
+						<div class="tour-card__footer">
+							<p class="tour-card__price">700$</p>
+							<a class="tour-card__button button" href="#">Read more</a>
+						</div>
+					</div>
+					<div class="offers__tour-card tour-card">
+						<div class="tour-card__info">
+							<div class="tour-card__photo"><img src="img/photo-s-2.png" alt="photo"></div>
+							<p class="tour-card__title">1914 translation</p>
+							<p class="tour-card__text">
+								But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+							</p>
+						</div>
+						<div class="tour-card__footer">
+							<p class="tour-card__price">700$</p>
+							<a class="tour-card__button button" href="#">Read more</a>
+						</div>
+					</div>
+				</div>
+				<div class="offers__tour-tab tour-tab">
+					<div class="tour-tab__head">
+						<div class="tour-tab__btn">TOURS</div>
+						<div class="tour-tab__btn">PHOTOS</div>
+						<div class="tour-tab__special-summer-poster special-summer-poster">
+							<div class="special-summer-poster__big">Special <span>Summer</span></div>
+							<div class="special-summer-poster__small">Offer</div>
+						</div>
+					</div>
+					<div class="tour-tab__content">
+						<div class="tour-tab__page tour-tab__page--tours">
+							<a class="tour-tab__link" href="#">
+								<span class="tour-tab__link-icon"><i class="icon-play"></i></span>
+								<span class="tour-tab__link-info">Lorem Ipsum is simply dummy text simply</span>
+								<span class="tour-tab__link-days">10 Days</span>
+								<span class="tour-tab__link-more">more details</span>
+							</a>
+							<a class="tour-tab__link" href="#">
+								<span class="tour-tab__link-icon"><i class="icon-play"></i></span>
+								<span class="tour-tab__link-info">Printing and typesetting industry typesetting</span>
+								<span class="tour-tab__link-days">10 Days</span>
+								<span class="tour-tab__link-more">more details</span>
+							</a>
+							<a class="tour-tab__link" href="#">
+								<span class="tour-tab__link-icon"><i class="icon-play"></i></span>
+								<span class="tour-tab__link-info">Has been the industry's standard</span>
+								<span class="tour-tab__link-days">11 Days</span>
+								<span class="tour-tab__link-more">more details</span>
+							</a>
+							<a class="tour-tab__link" href="#">
+								<span class="tour-tab__link-icon"><i class="icon-play"></i></span>
+								<span class="tour-tab__link-info">Dummy text ever since the 1500s Ipsum is simpl</span>
+								<span class="tour-tab__link-days">22 Days</span>
+								<span class="tour-tab__link-more">more details</span>
+							</a>
+							<a class="tour-tab__link" href="#">
+								<span class="tour-tab__link-icon"><i class="icon-play"></i></span>
+								<span class="tour-tab__link-info">Lorem Ipsum is simply dummy text simply</span>
+								<span class="tour-tab__link-days">13 Days</span>
+								<span class="tour-tab__link-more">more details</span>
+							</a>
+							<a class="tour-tab__link" href="#">
+								<span class="tour-tab__link-icon"><i class="icon-play"></i></span>
+								<span class="tour-tab__link-info">Printing and typesetting industry Printing</span>
+								<span class="tour-tab__link-days">17 Days</span>
+								<span class="tour-tab__link-more">more details</span>
+							</a>
+							<a class="tour-tab__link" href="#">
+								<span class="tour-tab__link-icon"><i class="icon-play"></i></span>
+								<span class="tour-tab__link-info">Has been the industry's standard</span>
+								<span class="tour-tab__link-days">19 Days</span>
+								<span class="tour-tab__link-more">more details</span>
+							</a>
+							<a class="tour-tab__link" href="#">
+								<span class="tour-tab__link-icon"><i class="icon-play"></i></span>
+								<span class="tour-tab__link-info">Dummy text ever since the the industry</span>
+								<span class="tour-tab__link-days">16 Days</span>
+								<span class="tour-tab__link-more">more details</span>
+							</a>
+						</div>
+						<div class="tour-tab__page tour-tab__page--photos">
+							<div class="tour-tab__photo"><img src="img/photo-1.png" alt="photo"></div>
+							<div class="tour-tab__photo"><img src="img/photo-1.png" alt="photo"></div>
+							<div class="tour-tab__photo"><img src="img/photo-1.png" alt="photo"></div>
+							<div class="tour-tab__photo"><img src="img/photo-1.png" alt="photo"></div>
+							<div class="tour-tab__photo"><img src="img/photo-1.png" alt="photo"></div>
+							<div class="tour-tab__photo"><img src="img/photo-1.png" alt="photo"></div>
+							<div class="tour-tab__photo"><img src="img/photo-1.png" alt="photo"></div>
+							<div class="tour-tab__photo"><img src="img/photo-1.png" alt="photo"></div>
+							<div class="tour-tab__photo"><img src="img/photo-1.png" alt="photo"></div>
+							<div class="tour-tab__photo"><img src="img/photo-1.png" alt="photo"></div>
+							<div class="tour-tab__photo"><img src="img/photo-1.png" alt="photo"></div>
+							<div class="tour-tab__photo"><img src="img/photo-1.png" alt="photo"></div>
+							<div class="tour-tab__photo"><img src="img/photo-1.png" alt="photo"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="map-section">
+			<div class="map-section__container container">
+				<div class="map-section__header">
+					<h3>Find Tourist Spots by Map</h3>
+					<p>Click on map</p>
+				</div>
+				<div class="map">
+					<div class="map__world">
+						<img src="img/map.png" alt="map">
+						<div class="map__part map__part--africa"><img src="img/map.png" alt=""></div>
+						<div class="map__part map__part--asia"><img src="img/map.png" alt=""></div>
+						<div class="map__part map__part--australia"><img src="img/map.png" alt=""></div>
+						<div class="map__part map__part--america"><img src="img/map.png" alt=""></div>
+						<div class="map__info-popup-close-area"></div>
+						<div class="map__info-popup map__info-popup--africa info-popup">
+							<div class="info-popup__shape"></div>
+							<div class="info-popup__content">
+								<div class="info-popup__list">
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-1.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-1.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-1.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-1.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+								</div>
+								<div class="info-popup__title">
+									<p>Africa Tourism</p>
+									<span class="info-popup__close-btn"><i class="icon-cross"></i></span>
+								</div>
+							</div>
+						</div>
+						<div class="map__info-popup map__info-popup--asia info-popup">
+							<div class="info-popup__shape"></div>
+							<div class="info-popup__content">
+								<div class="info-popup__list">
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-1.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-1.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-1.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-1.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+								</div>
+								<div class="info-popup__title">
+									<p>Asia Tourism</p>
+									<span class="info-popup__close-btn"><i class="icon-cross"></i></span>
+								</div>
+							</div>
+						</div>
+						<div class="map__info-popup map__info-popup--australia info-popup">
+							<div class="info-popup__shape"></div>
+							<div class="info-popup__content">
+								<div class="info-popup__list">
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-1.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-1.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+								</div>
+								<div class="info-popup__title">
+									<p>Australia Tourism</p>
+									<span class="info-popup__close-btn"><i class="icon-cross"></i></span>
+								</div>
+							</div>
+						</div>
+						<div class="map__info-popup map__info-popup--america info-popup">
+							<div class="info-popup__shape info-popup__shape--left"></div>
+							<div class="info-popup__content">
+								<div class="info-popup__list">
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-1.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-1.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+									<a class="info-popup__item" href="#">
+										<span class="info-popup__item-photo"><img src="img/photo-s-2.png" alt="photo"></span>
+										<span class="info-popup__item-title">1914 translation</span>
+										<span class="info-popup__item-text">
+											But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and exp
+										</span>
+									</a>
+								</div>
+								<div class="info-popup__title">
+									<p>America Tourism</p>
+									<span class="info-popup__close-btn"><i class="icon-cross"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<section class="footer__top">
+					<div class="footer__news news">
+						<h4 class="footer__title">News letter</h4>
+						<div class="news__subscribe-form">
+							<div class="input-gradient-border">
+								<input type="text" placeholder="enter email address">
+							</div>
+							<button class="news__button button">Subscribe</button>
+						</div>
+					</div>
+					<div class="footer__socials socials">
+						<h4 class="footer__title">Social media</h4>
+						<div class="socials__links">
+							<a class="socials__link" href="#" title="Twitter">twitter<i class="icon-twitter"></i></a>
+							<a class="socials__link" href="#" title="Facebook">facebook<i class="icon-facebook"></i></a>
+							<a class="socials__link" href="#" title="LinkedIn">linkedin<i class="icon-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="footer__contacts contacts">
+						<h4 class="footer__title">Contact us</h4>
+						<p class="contacts__address">Lorem Ipsum is simply dummy</p>
+						<p class="contacts__address">Printing and typesetting</p>
+						<div class="contacts__box">
+							<span>Phone</span>
+							<span>:</span>
+							<span><a href="+979945512832">+97 -9945512832</a>, <a href="55418745">55418745</a></span>
+							<span>email</span>
+							<span>:</span>
+							<span><a href="mailto:mail@yourdomain.com">mail@yourdomain.com</a></span>
+							<span>&nbsp;</span>
+							<span>:</span>
+							<span><a href="mailto:info@yourdomain.com">Info@yourdomain.com</a></span>
+							<span>Fax</span>
+							<span>:</span>
+							<span><a href="fax:1447854">1447854</a>, <a href="fax:5564215">5564215</a>, <a href="fax:55428">55428</a></span>
+						</div>
+					</div>
+					<div class="footer__contact-form contact-form">
+						<h4 class="footer__title">Contact form</h4>
+
+						<form class="contact-form__form" action="#" id="form">
+							<div class="input-gradient-border">
+								<input type="text" name="name" placeholder="Name">
+							</div>
+							<div class="input-gradient-border">
+								<input type="text" name="email" placeholder="email address">
+							</div>
+							<div class="input-gradient-border">
+								<input type="text" name="phone" placeholder="phone">
+							</div>
+							<div class="input-gradient-border input-gradient-border--texa">
+								<textarea name="message" placeholder="Message"></textarea>
+							</div>
+							<button class="contact-form__button button" type="submit">Submit</button>
+						</form>
+					</div>
+				</section>
+				<section class="footer__bottom">
+					<p class="footer__copy"><span>©</span> Copyright 2013 cssauthor.com, All Rights Reserved</p>
+					<p class="footer__author">Designed and Developed By cssauthor.com</p>
+				</section>
+			</div>
+		</footer>
+
+
+</main>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

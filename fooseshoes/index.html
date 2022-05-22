@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>FooseShoes</title>
+	<meta name="description" content="">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32"> -->
+	<!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<noscript>
+		<div class="noscript-alert">
+			<p>For full functionality of this site it is necessary to enable JavaScript.<br>Here are the <a href="https://www.enable-javascript.com/">instructions how to enable JavaScript in your web browser</a>.</p><br>
+			<p>Для полной функциональности этого сайта необходимо включить JavaScript.<br>Вот <a href="https://www.enable-javascript.com/ru/">инструкции, как включить JavaScript в вашем браузере</a>.</p>
+		</div>
+	</noscript>
+<main class="page"> <!-- при scroll lock не вылезают всякие куски -->
+	<header class="header">
+		<div class="container">
+			<div class="header__logo">
+				<a href="#">FOOSESHOES</a>
+			</div>
+			<div class="header__search">
+				<div class="header__search-input-box">
+					<input type="text" placeholder="Search">
+				</div>
+				<i class="icon-search"></i>
+			</div>
+			<p class="header__account">
+				<span class="header__account-link" onclick="showPopup('login')">LOGIN</span>
+				or
+				<span class="header__account-link" onclick="showPopup('reg')">REGISTER</span>
+			</p>
+			<div class="header__menu-burger"><span></span></div>
+		</div>
+	</header>
+	<nav class="menu">
+		<div class="container">
+			<div class="menu__links">
+				<a class="menu__link" href="#">Home</a>
+				<a class="menu__link" href="#">Products</a>
+				<a class="menu__link" href="#">About</a>
+				<a class="menu__link" href="#">Pages</a>
+				<a class="menu__link" href="#">Blog</a>
+				<a class="menu__link" href="#">Contact</a>
+			</div>
+			<p class="menu__account">
+				<span class="menu__account-link" onclick="showPopup('login')">Login</span>
+				<br>
+				<span class="menu__account-link" onclick="showPopup('reg')">Register</span>
+			</p>
+			<div class="menu__shopping menu__shopping--wishlist">
+				<i class="icon-star"></i>
+				<p class="num">30</p>
+			</div>
+			<div class="menu__shopping menu__shopping--cart">
+				<i class="icon-cart-empty"></i>
+				<p class="num">0</p>
+			</div>
+		</div>
+	</nav>
+	<section class="top-slider">
+		<div class="top-slider__wrapper">
+			<div class="container">
+				<div class="top-slider__slide slide _active">
+					<div class="slide__img"><img src="img/slide_img1.png" alt="Pink Shoes"></div>
+					<div class="slide__content">
+						<p class="slide__price price">$145,99</p>
+						<h2 class="slide__title">Pink Shoes<br>2013 Collection</h2>
+						<p class="slide__text">
+							Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci. 
+							Donec dignissim dolor eget..
+						</p>
+						<div class="slide__action-buttons action-buttons">
+							<a class="action-buttons__item" href="#" title="Info"><i class="icon-eye"></i></a>
+							<a class="action-buttons__item" href="#" title="Add to Wishlist"><i class="icon-star"></i></a>
+							<a class="action-buttons__item" href="#" title="Share"><i class="icon-share"></i></a>
+							<a class="action-buttons__item" href="#" title="Add to Cart"><i class="icon-cart-add"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="top-slider__slide slide">
+					<div class="slide__img"><img src="img/slide_img1.png" alt="Anna Field"></div>
+					<div class="slide__content">
+						<p class="slide__price price">$45,99</p>
+						<h2 class="slide__title">Anna Field<br>2013 Collection</h2>
+						<p class="slide__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, eaque?
+						</p>
+						<div class="slide__action-buttons action-buttons">
+							<a class="action-buttons__item" href="#" title="Info"><i class="icon-eye"></i></a>
+							<a class="action-buttons__item" href="#" title="Add to Wishlist"><i class="icon-star"></i></a>
+							<a class="action-buttons__item" href="#" title="Share"><i class="icon-share"></i></a>
+							<a class="action-buttons__item" href="#" title="Add to Cart"><i class="icon-cart-add"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="top-slider__slide slide">
+					<div class="slide__img"><img src="img/slide_img1.png" alt="Prada"></div>
+					<div class="slide__content">
+						<p class="slide__price price">$145,99</p>
+						<h2 class="slide__title">Prada<br>2013 Collection</h2>
+						<p class="slide__text">
+							Fuga, enim a veritatis ex at eveniet, atque maxime vitae magni facilis!
+						</p>
+						<div class="slide__action-buttons action-buttons">
+							<a class="action-buttons__item" href="#" title="Info"><i class="icon-eye"></i></a>
+							<a class="action-buttons__item" href="#" title="Add to Wishlist"><i class="icon-star"></i></a>
+							<a class="action-buttons__item" href="#" title="Share"><i class="icon-share"></i></a>
+							<a class="action-buttons__item" href="#" title="Add to Cart"><i class="icon-cart-add"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="top-slider__slide slide">
+					<div class="slide__img"><img src="img/slide_img1.png" alt="Casadei"></div>
+					<div class="slide__content">
+						<p class="slide__price price">$115,99</p>
+						<h2 class="slide__title">Casadei<br>2013 Collection</h2>
+						<p class="slide__text">
+							Sed ut ante eget leo tempor consequat sit amet eu orci. 
+							Donec dignissim dolor eget..
+						</p>
+						<div class="slide__action-buttons action-buttons">
+							<a class="action-buttons__item" href="#" title="Info"><i class="icon-eye"></i></a>
+							<a class="action-buttons__item" href="#" title="Add to Wishlist"><i class="icon-star"></i></a>
+							<a class="action-buttons__item" href="#" title="Share"><i class="icon-share"></i></a>
+							<a class="action-buttons__item" href="#" title="Add to Cart"><i class="icon-cart-add"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="top-slider__slide slide">
+					<div class="slide__img"><img src="img/slide_img1.png" alt="Mellow Yellow"></div>
+					<div class="slide__content">
+						<p class="slide__price price">$139,99</p>
+						<h2 class="slide__title">Mellow Yellow<br>2013 Collection</h2>
+						<p class="slide__text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aspernatur, officia iste, 
+							neque laudantium doloribus sit.
+						</p>
+						<div class="slide__action-buttons action-buttons">
+							<a class="action-buttons__item" href="#" title="Info"><i class="icon-eye"></i></a>
+							<a class="action-buttons__item" href="#" title="Add to Wishlist"><i class="icon-star"></i></a>
+							<a class="action-buttons__item" href="#" title="Share"><i class="icon-share"></i></a>
+							<a class="action-buttons__item" href="#" title="Add to Cart"><i class="icon-cart-add"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="top-slider__pagination pagination">
+			<div class="container">
+				<div class="pagination__line">
+					<div class="pagination__line-inner"></div>
+					<div class="pagination__line-cell"></div>
+					<div class="pagination__line-cell"></div>
+					<div class="pagination__line-cell"></div>
+					<div class="pagination__line-cell"></div>
+					<div class="pagination__line-cell"></div>
+				</div>
+				<div class="pagination__item _active">
+					<p class="pagination__item-title">Pink Shoes</p>
+					<p class="pagination__item-text">Now at $145,99</p>
+				</div>
+				<div class="pagination__item">
+					<p class="pagination__item-title">Anna Field</p>
+					<p class="pagination__item-text">Limited Edition</p>
+				</div>
+				<div class="pagination__item">
+					<p class="pagination__item-title">Prada</p>
+					<p class="pagination__item-text">Summer is coming</p>
+				</div>
+				<div class="pagination__item">
+					<p class="pagination__item-title">Casadei</p>
+					<p class="pagination__item-text">All Colors avaiable</p>
+				</div>
+				<div class="pagination__item">
+					<p class="pagination__item-title">Mellow Yellow</p>
+					<p class="pagination__item-text">Free delivery</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="specials">
+		<div class="container">
+			<a class="specials__item" href="#">
+				<img class="specials__item-img" src="img/special-1.jpg" alt="" loading="lazy">
+				<span class="specials__item-title">
+					<span class="specials__item-title-bg"></span>
+					<span class="specials__item-title-text">ON SALE</span>
+				</span>
+			</a>
+			<a class="specials__item" href="#">
+				<img class="specials__item-img" src="img/special-2.jpg" alt="" loading="lazy">
+				<span class="specials__item-title">
+					<span class="specials__item-title-bg"></span>
+					<span class="specials__item-title-text">SPECIAL OFFERS</span>
+				</span>
+			</a>
+			<a class="specials__item" href="#">
+				<img class="specials__item-img" src="img/special-3.jpg" alt="" loading="lazy">
+				<span class="specials__item-title">
+					<span class="specials__item-title-bg"></span>
+					<span class="specials__item-title-text">MUST HAVE</span>
+				</span>
+			</a>
+		</div>
+	</section>
+	<section class="product-cards">
+		<div class="container">
+			<div class="product-cards__header">
+				<h3 class="product-cards__header-title">New arrivals on FooseShoes</h3>
+				<a class="product-cards__header-btn" href="#">Show All</a>
+			</div>
+			<div class="product-cards__items">
+				<div class="prod-card">
+					<a class="prod-card__card-img" href="#"><img src="img/shoe-1.jpg" alt="Shoes" loading="lazy"></a>
+					<div class="prod-card__card-label card-label">
+						<div class="card-label__box">
+							<p class="card-label__price price">$145,99</p>
+							<p class="card-label__title">Even&Odd</p>
+							<div class="card-label__action-buttons action-buttons">
+								<a class="action-buttons__item" href="#" title="Info"><i class="icon-eye"></i></a>
+								<a class="action-buttons__item" href="#" title="Add to Wishlist"><i class="icon-star"></i></a>
+								<a class="action-buttons__item" href="#" title="Share"><i class="icon-share"></i></a>
+								<a class="action-buttons__item" href="#" title="Add to Cart"><i class="icon-cart-add"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="prod-card prod-card--sale">
+					<a class="prod-card__card-img" href="#"><img src="img/shoe-2.jpg" alt="Shoes" loading="lazy"></a>
+					<div class="prod-card__card-label card-label">
+						<div class="card-label__box">
+							<p class="card-label__price price">$145,99</p>
+							<p class="card-label__title">Even&Odd</p>
+							<div class="card-label__action-buttons action-buttons">
+								<a class="action-buttons__item" href="#" title="Info"><i class="icon-eye"></i></a>
+								<a class="action-buttons__item" href="#" title="Add to Wishlist"><i class="icon-star"></i></a>
+								<a class="action-buttons__item" href="#" title="Share"><i class="icon-share"></i></a>
+								<a class="action-buttons__item" href="#" title="Add to Cart"><i class="icon-cart-add"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="prod-card">
+					<a class="prod-card__card-img" href="#"><img src="img/shoe-3.jpg" alt="Shoes" loading="lazy"></a>
+					<div class="prod-card__card-label card-label">
+						<div class="card-label__box">
+							<p class="card-label__price price">$145,99</p>
+							<p class="card-label__title">Buffalo Decollete</p>
+							<div class="card-label__action-buttons action-buttons">
+								<a class="action-buttons__item" href="#" title="Info"><i class="icon-eye"></i></a>
+								<a class="action-buttons__item" href="#" title="Add to Wishlist"><i class="icon-star"></i></a>
+								<a class="action-buttons__item" href="#" title="Share"><i class="icon-share"></i></a>
+								<a class="action-buttons__item" href="#" title="Add to Cart"><i class="icon-cart-add"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="product-cards">
+		<div class="container">
+			<div class="product-cards__header">
+				<h3 class="product-cards__header-title">Best sellers of the month</h3>
+				<a class="product-cards__header-btn" href="#">Show All</a>
+			</div>
+			<div class="product-cards__items">
+				<div class="prod-card">
+					<a class="prod-card__card-img" href="#"><img src="img/shoe-4.jpg" alt="Shoes" loading="lazy"></a>
+					<div class="prod-card__card-label card-label">
+						<div class="card-label__box">
+							<p class="card-label__price price">$145,99</p>
+							<p class="card-label__title">Even&Odd</p>
+							<div class="card-label__action-buttons action-buttons">
+								<a class="action-buttons__item" href="#" title="Info"><i class="icon-eye"></i></a>
+								<a class="action-buttons__item" href="#" title="Add to Wishlist"><i class="icon-star"></i></a>
+								<a class="action-buttons__item" href="#" title="Share"><i class="icon-share"></i></a>
+								<a class="action-buttons__item" href="#" title="Add to Cart"><i class="icon-cart-add"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="prod-card">
+					<a class="prod-card__card-img" href="#"><img src="img/shoe-5.jpg" alt="Shoes" loading="lazy"></a>
+					<div class="prod-card__card-label card-label">
+						<div class="card-label__box">
+							<p class="card-label__price price">$145,99</p>
+							<p class="card-label__title">Even&Odd</p>
+							<div class="card-label__action-buttons action-buttons">
+								<a class="action-buttons__item" href="#" title="Info"><i class="icon-eye"></i></a>
+								<a class="action-buttons__item" href="#" title="Add to Wishlist"><i class="icon-star"></i></a>
+								<a class="action-buttons__item" href="#" title="Share"><i class="icon-share"></i></a>
+								<a class="action-buttons__item" href="#" title="Add to Cart"><i class="icon-cart-add"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="prod-card prod-card--out">
+					<a class="prod-card__card-img" href="#"><img src="img/shoe-6.jpg" alt="Shoes" loading="lazy"></a>
+					<div class="prod-card__card-label card-label">
+						<div class="card-label__box">
+							<p class="card-label__price price">$145,99</p>
+							<p class="card-label__title">Buffalo Decollete</p>
+							<div class="card-label__action-buttons action-buttons">
+								<a class="action-buttons__item" href="#" title="Info"><i class="icon-eye"></i></a>
+								<a class="action-buttons__item" href="#" title="Add to Wishlist"><i class="icon-star"></i></a>
+								<a class="action-buttons__item" href="#" title="Share"><i class="icon-share"></i></a>
+								<a class="action-buttons__item" href="#" title="Add to Cart"><i class="icon-cart-add"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="addon">
+		<div class="container">
+			<div class="addon__item">
+				<h4 class="addon__item-title">FREE SHIPPING</h4>
+				<p class="addon__item-text">
+					Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class 
+					aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
+					himenaeos. Donec erat sem, 
+				</p>
+			</div>
+			<div class="addon__item">
+				<h4 class="addon__item-title">TESTIMONIALS</h4>
+				<p class="addon__item-text">
+					vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per 
+					conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit [...]
+				</p>
+				<p class="addon__item-sign">John Doe</p>
+			</div>
+			<div class="addon__item">
+				<h4 class="addon__item-title">BLOG NEWS</h4>
+				<a class="addon__item-article" href="#">
+					<span class="addon__item-article-date">APR 01</span>
+					<span class="addon__item-article-title">Nice & clean. The best for you blog!</span>
+					<span class="addon__item-article-text">
+						Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class 
+						aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos 
+						himenaeos. Donec erat sem, vehicula id dictum sit [...]
+					</span>
+				</a>
+				<a class="addon__item-article" href="#">
+					<span class="addon__item-article-date">APR 01</span>
+					<span class="addon__item-article-title">What an Ecommerce theme!</span>
+					<span class="addon__item-article-text">
+						Vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per 
+						conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit [...]
+					</span>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section class="pre-footer">
+		<div class="container">
+			<div class="pre-footer__widgets">
+				<div class="pre-footer__widget widget">
+					<p class="widget__header">TEXT WIDGET</p>
+					<p class="widget__text">
+						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor 
+						id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis 
+						dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat 
+						porttitor ligula, eget lacinia odio sem nec elit.
+					</p>
+				</div>
+				<div class="pre-footer__widget widget">
+					<p class="widget__header">TWITTER WIDGET</p>
+					<div class="widget__article">
+						<p class="widget__article-text">
+							<span class="widget__article-tag">@ericafustero</span> Why thank you. Your work looks 
+							awesome by the way! <span class="widget__article-tag">@treemelody</span>
+						</p>
+						<p class="widget__article-date">19 days ago</p>
+					</div>
+					<div class="widget__article">
+						<p class="widget__article-text">
+							<span class="widget__article-tag">@roymarvelous</span> You can seek a refund through 
+							TF if it is not as advertised - but it is :)
+						</p>
+						<p class="widget__article-date">21 days ago</p>
+					</div>
+				</div>
+				<div class="pre-footer__widget widget">
+					<p class="widget__header">FLICKR WIDGET</p>
+					<div class="widget__images">
+						<a href="#"><img src="img/flickr-1.png" alt="" loading="lazy"></a>
+						<a href="#"><img src="img/flickr-2.png" alt="" loading="lazy"></a>
+						<a href="#"><img src="img/flickr-3.png" alt="" loading="lazy"></a>
+						<a href="#"><img src="img/flickr-4.png" alt="" loading="lazy"></a>
+						<a href="#"><img src="img/flickr-5.png" alt="" loading="lazy"></a>
+						<a href="#"><img src="img/flickr-6.png" alt="" loading="lazy"></a>
+					</div>
+				</div>
+			</div>
+			<div class="pre-footer__contact">
+				<div class="signup">
+					<input class="signup__input" type="text" placeholder="Enter email for newsletter">
+					<button class="signup__btn"><i class="icon-arrow"></i></button>
+				</div>
+				<div class="socials">
+					<a class="socials__link" href="#"><i class="icon-facebook"></i></a>
+					<a class="socials__link" href="#"><i class="icon-twitter"></i></a>
+					<a class="socials__link" href="#"><i class="icon-google-plus"></i></a>
+					<a class="socials__link" href="#"><i class="icon-linkedin"></i></a>
+					<a class="socials__link" href="#"><i class="icon-flickr"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__copy">
+				<p>Copyright &copy; Fooseshoes 2013.</p>
+				<p>Designed by EnzoLiVolti.</p>
+			</div>
+			<nav class="footer__nav">
+				<div class="footer__nav-link">
+					<a href="#">Home</a>
+				</div>
+				<div class="footer__nav-link">
+					<a href="#">Support</a>
+				</div>
+				<div class="footer__nav-link">
+					<a href="#">Terms and Conditions</a>
+				</div>
+				<div class="footer__nav-link">
+					<a href="#">Faqs</a>
+				</div>
+				<div class="footer__nav-link">
+					<a href="#">Contact us</a>
+				</div>
+			</nav>
+		</div>
+	</footer>
+	<div class="popup popup--login">
+		<div class="popup__back"></div>
+		<div class="popup__pop-window pop-window pop-window--login">
+			<div class="pop-window__header">
+				<p class="pop-window__title">Login</p>
+				<div class="pop-window__close"><i class="icon-cross"></i></div>
+			</div>
+			<form class="pop-window__pop-form pop-form" action="#">
+				<p class="pop-form__text">Enter login or email</p>
+				<input class="pop-form__login" type="text">
+				<p class="pop-form__text">Enter password</p>
+				<input class="pop-form__password" type="password">
+				<button class="pop-form__btn">GO</button>
+			</form>
+		</div>
+	</div>
+	<div class="popup popup--reg">
+		<div class="popup__back"></div>
+		<div class="popup__pop-window pop-window pop-window--register">
+			<div class="pop-window__header">
+				<p class="pop-window__title">Register</p>
+				<div class="pop-window__close"><i class="icon-cross"></i></div>
+			</div>
+			<form class="pop-window__pop-form pop-form" action="#">
+				<p class="pop-form__text">Enter email</p>
+				<input class="pop-form__email" type="text">
+				<p class="pop-form__text">Enter login</p>
+				<input class="pop-form__login" type="text">
+				<p class="pop-form__text">Enter password</p>
+				<input class="pop-form__password" type="password">
+				<p class="pop-form__text">Confirm password</p>
+				<input class="pop-form__password-conf" type="password">
+				<button class="pop-form__btn">GO</button>
+			</form>
+		</div>
+	</div>
+</main>
+	<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+	<script src="js/script.js"></script>
+</body>
+</html>

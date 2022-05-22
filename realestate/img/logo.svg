@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16.708237mm"
+   height="17.422998mm"
+   viewBox="0 0 16.708237 17.422998"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-59.663542,-75.311008)">
+    <path
+       style="fill:#fff;stroke-width:0.352778"
+       d="m 59.663542,88.804881 v -3.925277 l 3.792361,3.639737 3.792361,3.639737 0.56821,0.574928 -0.333025,-0.0038 h -3.909953 -3.909954 z m 4.4919,-0.5784 L 60.369098,84.42836 59.85,83.911 h 0.519098 l 3.880555,-2.85e-4 h 3.880555 v 4.056944 L 68.13,92.024603 v 0.194303 L 67.941788,92.024603 Z M 59.774179,83.205 l 0.242141,-0.246319 4.056944,-3.787728 4.056944,-3.787728 v 3.910967 3.910967 H 64.073264 L 60.01632,83.205 Z m 9.061585,-3.946916 v -3.947076 l 0.775068,0.86027 0.775068,0.860271 2.992939,3.086805 2.99294,3.086805 h -3.768008 -3.768007 z"
+       id="path40"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccc" />
+  </g>
+</svg>

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MagBlog</title>
+	<meta name="description" content="Magazine Blog">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/style.min.css"> -->
+</head>
+<body onload="onloadInits()">
+<noscript>
+	<div class="noscript-alert">
+		<p>For full functionality of this site it is necessary to enable JavaScript.<br>Here are the <a href="https://www.enable-javascript.com/">instructions how to enable JavaScript in your web browser</a>.</p><br>
+		<p>Для полной функциональности этого сайта необходимо включить JavaScript.<br>Вот <a href="https://www.enable-javascript.com/ru/">инструкции, как включить JavaScript в вашем браузере</a>.</p>
+	</div>
+</noscript>
+
+<main class="page">
+	<div class="page__bg">
+		<i class="_clr-orn"></i>
+		<i class="_clr-mgn"></i>
+		<i class="_clr-blu"></i>
+		<i class="_clr-grn"></i>
+		<i class="_clr-sky"></i>
+	</div>
+	<div class="page__side-line">
+		<div class="page__side-line-part">
+			<i class="_clr-orn"></i>
+			<i class="_clr-mgn"></i>
+			<i class="_clr-blu"></i>
+			<i class="_clr-grn"></i>
+			<i class="_clr-sky"></i>
+			<i class="_clr-orn"></i>
+			<i class="_clr-mgn"></i>
+			<i class="_clr-blu"></i>
+			<i class="_clr-grn"></i>
+			<i class="_clr-sky"></i>
+			<i class="_clr-orn"></i>
+			<i class="_clr-mgn"></i>
+			<i class="_clr-blu"></i>
+			<i class="_clr-grn"></i>
+			<i class="_clr-sky"></i>
+		</div>
+	</div>
+	<div class="page__container container">
+	<header class="header">
+		<div class="header__container">
+			<div class="header__logo">
+				<div class="h1 c1"><span>M</span></div>
+				<div class="h1 c2"><span>a</span></div>
+				<div class="h1 c1"><span>g</span></div>
+				<div class="h2 c2"><span>B</span></div>
+				<div class="h2 c1"><span>l</span></div>
+				<div class="h2 c2"><span>o</span></div>
+				<div class="h2 c1"><span>g</span></div>
+			</div>
+			<div class="header__search search">
+				<input class="search__input" type="text">
+				<button class="search__button _clr-sky">SEARCH</button>
+			</div>
+			<div class="header__socials socials">
+				<a class="socials__link _clr-orn" href="#" title="RSS">rss<i class="icon-rss"></i></a>
+				<a class="socials__link _clr-blu" href="#" title="Facebook">facebook<i class="icon-facebook"></i></a>
+				<a class="socials__link _clr-sky" href="#" title="Twitter">twitter<i class="icon-tw"></i></a>
+			</div>
+			<div class="menu-open-btn"><i class="icon-bars"></i></div>
+			<nav class="header__menu menu">
+				<div class="menu__container">
+					<ul class="menu__items">
+						<li class="menu__item" data-name="home">
+							<a class="menu__link _clr-sky" href="index.html">Home</a>
+						</li>
+						<li class="menu__item" data-name="cinema">
+							<a class="menu__link _clr-grn" href="#">cinema</a>
+						</li>
+						<li class="menu__item" data-name="magazine">
+							<a class="menu__link _clr-blu" href="#">Magazine</a>
+						</li>
+						<li class="menu__item" data-name="cssauthor">
+							<a class="menu__link _clr-sky" href="#">Cssauthor.com</a>
+						</li>
+						<li class="menu__item" data-name="topmenu">
+							<a class="menu__link _clr-orn" href="#">Topmenu</a>
+						</li>
+						<li class="menu__item" data-name="archives">
+							<a class="menu__link _clr-red" href="#">Archives</a>
+						</li>
+						<li class="menu__item" data-name="contact">
+							<a class="menu__link" href="#">Contact us</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<div class="menu-turn-off-area"></div>
+	<script id="headerMenuOptions">
+		let headerMenuOptions = {
+			activeLink: 'home'
+		}
+	</script>
+	<section class="featured">
+			<p class="featured__header">TOP STORIES</p>
+
+			<div class="featured__slider">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="swiper-slide__image"><img src="img/top1.jpg" alt="slide img"></div>
+							<a class="swiper-slide__title _clr-sky" href="#"><i class="icon-play"></i><span>CINEMA</span></a>
+							<p class="swiper-slide__text">
+								Lorem Ipsum is simply dummy text of the printing and typesetting
+							</p>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide__image"><img src="img/top2.jpg" alt="slide img"></div>
+							<a class="swiper-slide__title _clr-orn" href="#"><i class="icon-play"></i>TRAVEL</a>
+							<p class="swiper-slide__text">
+								Lorem Ipsum is simply dummy text of the printing and typesetting
+							</p>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide__image"><img src="img/top3.jpg" alt="slide img"></div>
+							<a class="swiper-slide__title _clr-mgn" href="#"><i class="icon-play"></i>TELEVISION</a>
+							<p class="swiper-slide__text">
+								Lorem Ipsum is simply dummy text of the printing and typesetting
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="featured__arrow featured__arrow--left"><i class="icon-play"></i></div>
+				<div class="featured__arrow featured__arrow--right"><i class="icon-play"></i></div>
+			</div>
+	</section>
+	<main class="content">
+		<section class="content__posts posts">
+			<section class="post">
+				<div class="post__header">
+					<h2 class="post__title">
+						Lorem Ipsum is simply dummy text of the printing 
+					</h2>
+					<div class="post__date">
+						<span class="date">28</span>
+						<span class="month">FEB</span>
+					</div>
+				</div>
+				<p class="post__text">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+				</p>
+				<div class="post__images">
+					<div class="post__image post__image--l">
+						<img src="img/post1-big.jpg" alt="post image" loading="lazy">
+					</div>
+					<div class="post__image post__image--s">
+						<img src="img/post1-small1.jpg" alt="post image" loading="lazy">
+					</div>
+					<div class="post__image post__image--s">
+						<img src="img/post1-small2.jpg" alt="post image" loading="lazy">
+					</div>
+					<div class="post__image post__image--s">
+						<img src="img/post1-small3.jpg" alt="post image" loading="lazy">
+					</div>
+					<div class="post__image post__image--s">
+						<img src="img/post1-small4.jpg" alt="post image" loading="lazy">
+					</div>
+				</div>
+				<div class="post__footer">
+					<p class="post__category">Category :
+						<a class="post__link" href="#">Movie</a>
+					</p>
+					<p class="post__comments">
+						<i class="icon-speech"></i>
+						<a class="post__link" href="#">5 Comments</a>
+					</p>
+					<p class="post__more">
+						<a class="post__link" href="post.html">Read more</a>
+					</p>
+				</div>
+			</section>
+
+			<section class="post">
+				<div class="post__header">
+					<h2 class="post__title">
+						Lorem Ipsum is simply dummy text of the printing 
+					</h2>
+					<div class="post__date">
+						<span class="date">28</span>
+						<span class="month">FEB</span>
+					</div>
+				</div>
+				<p class="post__text">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				</p>
+				<p class="post__text">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+				</p>
+				<div class="post__images">
+					<div class="post__image post__image--l">
+						<img src="img/post1-big.jpg" alt="post image" loading="lazy">
+					</div>
+					<div class="post__image post__image--s">
+						<img src="img/post1-small1.jpg" alt="post image" loading="lazy">
+					</div>
+					<div class="post__image post__image--s">
+						<img src="img/post1-small2.jpg" alt="post image" loading="lazy">
+					</div>
+					<div class="post__image post__image--s">
+						<img src="img/post1-small3.jpg" alt="post image" loading="lazy">
+					</div>
+					<div class="post__image post__image--s">
+						<img src="img/post1-small4.jpg" alt="post image" loading="lazy">
+					</div>
+				</div>
+				<div class="post__footer">
+					<p class="post__category">Category :
+						<a class="post__link" href="#">Movie</a>
+					</p>
+					<p class="post__comments">
+						<i class="icon-speech"></i>
+						<a class="post__link" href="#">5 Comments</a>
+					</p>
+					<p class="post__more">
+						<a class="post__link" href="post.html">Read more</a>
+					</p>
+				</div>
+			</section>
+			<a class="older-posts" href="#">« older posts</a>
+		</section>
+	<aside class="content__aside aside">
+
+		<section class="aside__top-stories top-stories">
+			<p class="ribbon-header ribbon-header--cut">Top stories</p>
+			<div class="top-stories__tabs">
+				<div class="top-stories__tab _clr-mgn _visible">fashion</div>
+				<div class="top-stories__tab _clr-orn">cinema</div>
+				<div class="top-stories__tab _clr-sky">television</div>
+			</div>
+			<div class="top-stories__lists">
+				<div class="top-stories__list list _visible">
+					<div class="list__item">
+						<div class="list__img"><img src="img/pic1.jpg" alt=""></div>
+						<a class="list__title" href="#">
+							Lorem Ipsum is simply dummy text of the printing 
+						</a>
+						<p class="list__text">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</div>
+					<div class="list__item">
+						<div class="list__img"><img src="img/pic1.jpg" alt=""></div>
+						<a class="list__title" href="#">
+							Lorem Ipsum is simply dummy text of the printing 
+						</a>
+						<p class="list__text">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</div>
+					<div class="list__item">
+						<div class="list__img"><img src="img/pic1.jpg" alt=""></div>
+						<a class="list__title" href="#">
+							Lorem Ipsum is simply dummy text of the printing 
+						</a>
+						<p class="list__text">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</div>
+				</div>
+				<div class="top-stories__list list">
+					<div class="list__item">
+						<div class="list__img"><img src="img/pic2.jpg" alt=""></div>
+						<a class="list__title" href="#">
+							Lorem Ipsum is simply dummy text of the printing 
+						</a>
+						<p class="list__text">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</div>
+					<div class="list__item">
+						<div class="list__img"><img src="img/pic2.jpg" alt=""></div>
+						<a class="list__title" href="#">
+							Lorem Ipsum is simply dummy text of the printing 
+						</a>
+						<p class="list__text">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</div>
+					<div class="list__item">
+						<div class="list__img"><img src="img/pic2.jpg" alt=""></div>
+						<a class="list__title" href="#">
+							Lorem Ipsum is simply dummy text of the printing 
+						</a>
+						<p class="list__text">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</div>
+				</div>
+				<div class="top-stories__list list">
+					<div class="list__item">
+						<div class="list__img"><img src="img/post1-small4.jpg" alt=""></div>
+						<a class="list__title" href="#">
+							Lorem Ipsum is simply dummy text of the printing 
+						</a>
+						<p class="list__text">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</div>
+					<div class="list__item">
+						<div class="list__img"><img src="img/post1-small4.jpg" alt=""></div>
+						<a class="list__title" href="#">
+							Lorem Ipsum is simply dummy text of the printing 
+						</a>
+						<p class="list__text">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</div>
+					<div class="list__item">
+						<div class="list__img"><img src="img/post1-small4.jpg" alt=""></div>
+						<a class="list__title" href="#">
+							Lorem Ipsum is simply dummy text of the printing 
+						</a>
+						<p class="list__text">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="aside__also also">
+			<p class="ribbon-header">YOU MIGHT ALSO LIKE</p>
+			<div class="also__items">
+				<div class="also__item">
+					<div class="also__item-img"><img src="img/pic2.jpg" alt=""></div>
+					<p class="also__item-text">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+					<a class="also__item-link" href="#">Medication »</a>
+				</div>
+				<div class="also__item">
+					<div class="also__item-img"><img src="img/pic2.jpg" alt=""></div>
+					<p class="also__item-text">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+					<a class="also__item-link" href="#">Medication »</a>
+				</div>
+				<div class="also__item">
+					<div class="also__item-img"><img src="img/pic2.jpg" alt=""></div>
+					<p class="also__item-text">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+					<a class="also__item-link" href="#">Medication »</a>
+				</div>
+				<div class="also__item">
+					<div class="also__item-img"><img src="img/pic2.jpg" alt=""></div>
+					<p class="also__item-text">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+					<a class="also__item-link" href="#">Medication »</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="aside__archives archives">
+			<p class="ribbon-header">Archives</p>
+			<div class="archives__items">
+				<div class="archives__item">
+					<a class="archives__link" href="#">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</a>
+					<i class="icon-play"></i>
+				</div>
+				<div class="archives__item">
+					<a class="archives__link" href="#">
+						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+					</a>
+					<i class="icon-play"></i>
+				</div>
+				<div class="archives__item">
+					<a class="archives__link" href="#">
+						When an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					</a>
+					<i class="icon-play"></i>
+				</div>
+				<div class="archives__item">
+					<a class="archives__link" href="#">
+						It has survived not only five centuries, but also the leap into electronic typesetting
+					</a>
+					<i class="icon-play"></i>
+				</div>
+				<div class="archives__item">
+					<a class="archives__link" href="#">
+						Remaining essentially unchanged. It was popularised in the 1960s with the release of
+					</a>
+					<i class="icon-play"></i>
+				</div>
+				<div class="archives__item">
+					<a class="archives__link" href="#">
+						Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+					</a>
+					<i class="icon-play"></i>
+				</div>
+				<div class="archives__item">
+					<a class="archives__link" href="#">
+						Software like Aldus PageMaker including versions of Lorem Ipsum.
+					</a>
+					<i class="icon-play"></i>
+				</div>
+			</div>
+		</section>
+
+		<section class="aside__tags tags">
+			<p class="ribbon-header">Tag cloud</p>
+			<div class="tags__items">
+				<a class="tag" href="#"><span class="tag-fsz-17 tag-b">Angelina Jolie</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-25 tag-b tag-clr">Cssauthor</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-15 tag-b">Aris-tokrasi</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-15 tag-b">Beyoncé</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-15 tag-b">Blake</span> <span class="tag-fsz-17">Lively</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-17">Brad Pitt</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-17">Cameron</span> <span class="tag-fsz-25">Diaz</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-25">Daniel</span> <span class="tag-fsz-23 tag-b">Rad-cliffe</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-23 tag-b">David</span> <span class="tag-fsz-15">Beckham</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-15">Demi</span> <span class="tag-fsz-17">Moore</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-17">Emma</span> <span class="tag-fsz-19 tag-b">Watson</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-19 tag-b">Eva</span> <span class="tag-fsz-13">Longoria</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-13">Gisele</span> <span class="tag-fsz-17 tag-b">Bun-dchen</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-17 tag-b">Gwyneth</span> <span class="tag-fsz-15">Paltrow</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-15">Halle Berry</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-21 tag-b">Harry Potter</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-15 tag-b">Heidi Klum</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-13">James</span> <span class="tag-fsz-17">Franco</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-17">Jennifer</span> <span class="tag-fsz-23 tag-b tag-clr">Lopez</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-23 tag-b tag-clr">Jessica</span> <span class="tag-fsz-17">Alba</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-17">Johnny</span> <span class="tag-fsz-13">Depp</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-13">Jon</span> <span class="tag-fsz-23">Hamm</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-23">Jude</span> <span class="tag-fsz-19 tag-b">Law</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-19 tag-b">Kate Moss</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-23 tag-b">Kate</span> <span class="tag-fsz-13">Winslet</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-13">Katie Holmes</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-13">Katy</span> <span class="tag-fsz-19">Perry</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-19">Kim</span> <span class="tag-fsz-13">Kardashian</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-13">Kristen</span> <span class="tag-fsz-23 tag-b">Stewart</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-13">Lady</span> <span class="tag-fsz-17">Gaga</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-17">Madonna</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-13">Megan Fox</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-17 tag-b">Michelle Williams</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-13">Natalie</span> <span class="tag-fsz-19">Portman</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-19">Nicole</span> <span class="tag-b">Kidman</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-17">Penelope Cruz</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-13">Reese Witherspoon</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-17">Reklam</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-25 tag-b tag-clr">Rihanna</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-13">Robert</span> <span class="tag-fsz-15">Pattin</span> <span class="tag-fsz-19 tag-b">Son</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-19 tag-b">Sarah</span> <span class="tag-fsz-13">Jessica</span> <span class="tag-fsz-17">Parker</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-17">Scarlett</span> <span class="tag-fsz-13">Johansson</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-13">Tom Cruise</span></a>
+				<a class="tag" href="#"><span class="tag-fsz-13">Victoria Beckham</span></a>
+			</div>
+		</section>
+		
+	</aside>
+	</main>
+	</div>
+	<div class="page__bottom-line">
+		<i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+	</div>
+</main>
+<footer class="footer">
+	<p class="footer__author">Designed by Cssauthor.com</p>
+</footer>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+<!-- <script src="js/script.min.js"></script> -->
+</body>
+</html>

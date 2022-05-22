@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>THEYALOW</title>
+	<meta name="description" content="Somesite">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/style.min.css"> -->
+</head>
+<body>
+<noscript>
+	<div class="noscript-alert">
+		<p>For full functionality of this site it is necessary to enable JavaScript.<br>Here are the <a href="https://www.enable-javascript.com/">instructions how to enable JavaScript in your web browser</a>.</p><br>
+		<p>Для полной функциональности этого сайта необходимо включить JavaScript.<br>Вот <a href="https://www.enable-javascript.com/ru/">инструкции, как включить JavaScript в вашем браузере</a>.</p>
+	</div>
+</noscript>
+
+<div class="banner">
+	<div class="banner__bg"><img src="img/1x1.png" alt=""></div>
+	
+	<header class="banner__header header">
+		<div class="header__container container">
+			<div class="header__logo logo">
+				<div class="logo__img">
+					<i class="icon-logo icon-logo--back"></i>
+					<i class="icon-logo"></i>
+				</div>
+				<a class="logo__link" href="index.html">THEYALOW</a>
+				<p class="logo__subtitle">CRAFT BY CSS AUTHOR.COM</p>
+			</div>
+
+			<nav class="header__menu menu">
+				<div class="menu__button">
+					<div class="menu-open-btn"><span></span></div>
+				</div>
+				<div class="menu__container">
+					<!-- <div class="menu-close-btn"><span>X</span></div> -->
+					<ul class="menu__items">
+						<li class="menu__item" data-name="about">
+							<a class="menu__link" href="#"><i class="icon-about"></i>about us</a>
+						</li>
+						<li class="menu__item" data-name="services">
+							<a class="menu__link" href="#"><i class="icon-service"></i>services</a>
+						</li>
+						<li class="menu__item" data-name="contact">
+							<a class="menu__link" href="#"><i class="icon-mail"></i>contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="header__print-address">address.com</div>
+		</div>
+	</header>
+	<div class="menu-turn-off-area"></div>
+	<script id="headerMenuOptions">
+		let headerMenuOptions = {
+			// links: ['about','services','contact'],
+			// activeLink: 'about'
+		}
+	</script>
+
+	<div class="banner__slider">
+		<div class="banner__swiper swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="swiper-slide__video video">
+						<video src="videosample.mp4" poster="img/video_frame1.jpg"></video>
+						<div class="video-controls">
+							<div class="video-controls__area">
+								<div class="video-controls__area-btn"><i class="icon-play"></i></div>
+							</div>
+							<div class="video-controls__panel">
+								<button class="video-controls__play-pause"><i class="icon-play"></i></button>
+								<div class="video-controls__seek-bar">
+									<input type="range" value="0">
+								</div>
+								<div class="video-controls__volume">
+									<div class="video-controls__volume-bar">
+										<input type="range" value="70">
+									</div>
+									<button class="video-controls__volume-btn"><i class="icon-speaker"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide__title">
+						<p>the cool</p>
+						<p>the minimal</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="swiper-slide__video video video--var2"><img src="img/video_frame1.jpg" alt="" title="Here might be a video..."></div>
+					<div class="swiper-slide__title">
+						<p>the minimal</p>
+						<p>the cool</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-button-prev"><i class="icon-arrow"></i></div>
+		<div class="swiper-button-next"><i class="icon-arrow"></i></div>
+	</div>
+
+</div>
+
+<main class="content">
+
+	<section class="content__features features">
+		<div class="features__container container">
+			<div class="features__item">
+				<div class="features__img"><i class="icon-cloud"></i></div>
+				<p class="features__title">better design</p>
+			</div>
+			<div class="features__item">
+				<div class="features__img"><i class="icon-leaf"></i></div>
+				<p class="features__title">customise</p>
+			</div>
+			<div class="features__item">
+				<div class="features__img"><i class="icon-plane"></i></div>
+				<p class="features__title">Its Free</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="content__section-1 section-1">
+		<div class="section-1__container container">
+			<h3 class="section-1__title">Lorem ipsum dolor sit amet</h3>
+			<div class="section-1__content-box content-box">
+
+				<div class="content-box__post">
+					<div class="content-box__wrapper">
+						<p class="content-box__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+						</p>
+					</div>
+					<div class="content-box__date">
+						<p class="content-box__date-date">25</p>
+						<p class="content-box__date-month">april</p>
+					</div>
+				</div>
+
+				<div class="content-box__video">
+					<a class="content-box__link" href="#">
+						<img src="img/video_frame2.jpg" alt="">
+						<span class="play-button"><i class="icon-play"></i></span>
+					</a>
+				</div>
+
+				<div class="content-box__twitter">
+					<div class="content-box__wrapper">
+						<i class="icon-twitter"></i>
+						<span class="content-box__tweet-count"></span>
+						<div class="content-box__tweets tweets">
+							<div class="tweets__messages">
+								<div class="tweets__bubble">
+									<div class="tweets__message message">
+										Daily Mobile UI Design Inspiration #1 via @cssauthor
+									</div>
+								</div>
+								<div class="tweets__bubble">
+									<div class="tweets__message message">
+										Daily Mobile UI Design Inspiration #2 via @cssauthor
+									</div>
+								</div>
+								<div class="tweets__bubble">
+									<div class="tweets__message message">
+										Daily Mobile UI Design Inspiration #3 via @cssauthor
+									</div>
+								</div>
+								<div class="tweets__bubble">
+									<div class="tweets__message message">
+										Daily Mobile UI Design Inspiration #4 via @cssauthor
+									</div>
+								</div>
+								<div class="tweets__bubble">
+									<div class="tweets__message message">
+										Daily Mobile UI Design Inspiration #5 via @cssauthor
+									</div>
+								</div>
+							</div>
+							<div class="tweets__input">
+								<input type="text">
+								<button>Tweet</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="content__section-2 section-2">
+		<div class="section-2__container container">
+			<h3 class="section-2__title">Lorem ipsum dolor sit amet</h3>
+			<div class="section-2__content">
+				<div class="section-2__image-box image-box">
+					<div class="wrapper">
+						<div class="image-box__sticker">Its 100% Free</div>
+						<div class="image-box__scr"><img src="img/device_scr.png" alt=""></div>
+						<div class="image-box__tab"><img src="img/device_tab.png" alt=""></div>
+						<div class="image-box__mob"><img src="img/device_mob.png" alt=""></div>
+					</div>
+				</div>
+				<ul class="section-2__list">
+					<li>Sed ut perspiciatis unde omnis</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>
+					<li>Sed ut perspiciatis unde omnis</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+</main>
+
+<footer class="footer">
+	<div class="footer__container container">
+		<div class="footer__logo logo">
+			<div class="logo__img">
+				<i class="icon-logo icon-logo--back"></i>
+				<i class="icon-logo"></i>
+			</div>
+			<a class="logo__link" href="index.html">THEYALOW</a>
+		</div>
+		<p class="footer__copy">Designed by cssauthor.com</p>
+	</div>
+</footer>
+	
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+<!-- <script src="js/script.min.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Home | BlazTheme</title>
+	<meta name="description" content="">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://use.fontawesome.com/78ee93020b.js"></script>
+	<script src="js/detect.min.js"></script>
+	<link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/ie.css">
+</head>
+<body class="container">
+	<noscript>
+		<div class="noscript-alert">
+			<p>For full functionality of this site it is necessary to enable JavaScript.<br>Here are the <a href="https://www.enable-javascript.com/">instructions how to enable JavaScript in your web browser</a>.</p><br>
+			<p>Для полной функциональности этого сайта необходимо включить JavaScript.<br>Вот <a href="https://www.enable-javascript.com/ru/">инструкции, как включить JavaScript в вашем браузере</a>.</p>
+		</div>
+	</noscript>
+	<header class="header container__header">
+		<div class="header__logo">
+			Theme<span>.</span>
+		</div>
+		<nav class="header__menu-box">
+			<ul class="menu">
+				<li class="menu__item">
+					<a class="menu__link this-page" href="index.html">Home</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="downloads.html">Free Downloads</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#">About</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#">Blog</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#">Licening</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<nav class="header__social-box">
+			<ul class="social">
+				<li class="social__item">
+					<a class="social__link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</li>
+				<li class="social__item social__item--colored">
+					<a class="social__link" href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
+				</li>
+				<li class="social__item">
+					<a class="social__link" href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section class="slider container__slider">
+		<div class="slider__button-left" onclick="switchSlide('prev')"></div>
+		<div class="slider__button-right" onclick="switchSlide('next')"></div>
+		<!-- CSS-radio if JS is off -->
+		<input class="slider__radio" type="radio" name="sli-rad" id="sli-rad-1" checked>
+		<input class="slider__radio" type="radio" name="sli-rad" id="sli-rad-2">
+		<input class="slider__radio" type="radio" name="sli-rad" id="sli-rad-3">
+		<div class="slider__dot-box dot-box">
+			<label class="dot-box__item" for="sli-rad-1" id="sli-dot-1">&#x2022;</label>
+			<label class="dot-box__item" for="sli-rad-2" id="sli-dot-2">&#x2022;</label>
+			<label class="dot-box__item" for="sli-rad-3" id="sli-dot-3">&#x2022;</label>
+		</div>
+		<div class="slide" id="slide-1">
+			<h1 class="slide__title">BlazRobar</h1>
+			<h2 class="slide__subtitle">APPROVES THIS MESSAGE</h2>
+		</div>
+		<div class="slide" id="slide-2">
+			<h1 class="slide__title">BlazRobar</h1>
+			<h2 class="slide__subtitle">SIGNS THIS MESSAGE</h2>
+		</div>
+		<div class="slide" id="slide-3">
+			<h1 class="slide__title">BlazRobar</h1>
+			<h2 class="slide__subtitle">SENDS THIS MESSAGE</h2>
+		</div>
+	</section>
+	<section class="downloads container__downloads">
+		<h3 class="downloads__block-title">Latest Downloads</h3>
+		<div class="downloads__dl-item dl-item">
+			<div class="dl-item__img-box">
+				<span>+</span>
+				<img class="dl-item__image" src="img/fill.png" alt="">
+			</div>
+			<p class="dl-item__title">PSD Ribbon Set</p>
+		</div>
+		<div class="downloads__dl-item dl-item">
+			<div class="dl-item__img-box">
+				<span>+</span>
+				<img class="dl-item__image" src="img/fill.png" alt="">
+			</div>
+			<p class="dl-item__title">PSD Ribbon Set</p>
+		</div>
+		<div class="downloads__dl-item dl-item">
+			<div class="dl-item__img-box">
+				<span>+</span>
+				<img class="dl-item__image" src="img/fill.png" alt="">
+			</div>
+			<p class="dl-item__title">PSD Ribbon Set</p>
+		</div>
+		<div class="downloads__dl-item dl-item">
+			<div class="dl-item__img-box">
+				<span>+</span>
+				<img class="dl-item__image" src="img/fill.png" alt="">
+			</div>
+			<p class="dl-item__title">PSD Ribbon Set</p>
+		</div>
+		<div class="downloads__dl-item dl-item">
+			<div class="dl-item__img-box">
+				<span>+</span>
+				<img class="dl-item__image" src="img/fill.png" alt="">
+			</div>
+			<p class="dl-item__title">PSD Ribbon Set</p>
+		</div>
+		<div class="downloads__dl-item dl-item">
+			<div class="dl-item__img-box">
+				<span>+</span>
+				<img class="dl-item__image" src="img/fill.png" alt="">
+			</div>
+			<p class="dl-item__title">PSD Ribbon Set</p>
+		</div>
+	</section>
+	<section class="search-block container__search-block">
+		<div class="search-block__article article">
+			<p class="article__title">Find Somthing</p>
+			<p class="article__text">
+				All files on this website are Free. Download and use these files for your commercial or personal projects.
+			</p>
+			<form class="search-form article__search-form" action="#">
+				<input class="search-form__input" type="text" placeholder="Looking for Somthing?">
+				<input class="search-form__btn" type="submit" value="GO">
+			</form>
+		</div>
+		<div class="search-block__article article article--order">
+			<p class="article__title">About Your Business Here</p>
+			<p class="article__text">
+				Over the years, I have benefited from hundreds of free online graphic design resources including PSD files, which have been generously shared by a thriving online design community. BlazRobar.com is a way for me to give back to this community.
+			</p>
+		</div>
+		<div class="search-block__article article article--span">
+			<p class="article__title">Search by<i class="fa fa-search" aria-hidden="true"></i></p>
+			<div class="categories">
+				<p class="categories__item"><span>+1 Icon (3)</span></p>
+				<p class="categories__item"><span>+1 Icon (3)</span></p>
+				<p class="categories__item"><span>Add detail to your (1)</span></p>
+				<p class="categories__item"><span>Add detail to your (1)</span></p>
+				<p class="categories__item"><span>Buttons (10)</span></p>
+				<p class="categories__item"><span>Buttons (10)</span></p>
+				<p class="categories__item"><span>Call To Action (19)</span></p>
+				<p class="categories__item"><span>Call To Action (19)</span></p>
+				<p class="categories__item"><span>Clean (6)</span></p>
+				<p class="categories__item"><span>Clean (6)</span></p>
+				<p class="categories__item"><span>Clean and simple (13)</span></p>
+				<p class="categories__item"><span>Clean and simple (13)</span></p>
+				<p class="categories__item"><span>Image Spder (9)</span></p>
+				<p class="categories__item"><span>Image Spder (9)</span></p>
+				<p class="categories__item categories__item--filled"><span>Clean Table Design (7)</span></p>
+				<p class="categories__item categories__item--filled"><span>CSS PSD (32)</span></p>
+			</div>
+		</div>
+	</section>
+	<section class="downloads container__downloads">
+		<h3 class="downloads__block-title">Other (just as good) Downloads</h3>
+		<div class="downloads__dl-item dl-item">
+			<div class="dl-item__img-box">
+				<span>+</span>
+				<img class="dl-item__image" src="img/samp1.png" loading="lazy" alt="">
+			</div>
+			<p class="dl-item__title">PSD Ribbon Set</p>
+			<p class="dl-item__text">
+				Free YouTube Player Skin Photoshop (PSD) template. Great for mocking up video content. Free YouTube Player Skin Phtoshop (PSD)
+			</p>
+			<div class="dl-item__footer">
+				<p class="theme-date">10th September 2011</p>
+				<p class="theme-author">By Blaz</p>
+				<p class="theme-comment">11</p>
+				<p class="theme-like">231</p>
+			</div>
+		</div>
+		<div class="downloads__dl-item dl-item">
+			<div class="dl-item__img-box">
+				<span>+</span>
+				<img class="dl-item__image" src="img/samp2.png" loading="lazy" alt="">
+			</div>
+			<p class="dl-item__title">PSD Ribbon Set</p>
+			<p class="dl-item__text">
+				Free YouTube Player Skin Photoshop (PSD) template. Great for mocking up video content. Free YouTube Player Skin Phtoshop (PSD)
+			</p>
+			<div class="dl-item__footer">
+				<p class="theme-date">10th September 2011</p>
+				<p class="theme-author">By Blaz</p>
+				<p class="theme-comment">11</p>
+				<p class="theme-like">231</p>
+			</div>
+		</div>
+		<div class="downloads__dl-item dl-item">
+			<div class="dl-item__img-box">
+				<span>+</span>
+				<img class="dl-item__image" src="img/samp3.png" loading="lazy" alt="">
+			</div>
+			<p class="dl-item__title">PSD Ribbon Set</p>
+			<p class="dl-item__text">
+				Free YouTube Player Skin Photoshop (PSD) template. Great for mocking up video content. Free YouTube Player Skin Phtoshop (PSD)
+			</p>
+			<div class="dl-item__footer">
+				<p class="theme-date">10th September 2011</p>
+				<p class="theme-author">By Blaz</p>
+				<p class="theme-comment">11</p>
+				<p class="theme-like">231</p>
+			</div>
+		</div>
+		<div class="downloads__dl-item dl-item">
+			<div class="dl-item__img-box">
+				<span>+</span>
+				<img class="dl-item__image" src="img/fill.png" loading="lazy" alt="">
+			</div>
+			<p class="dl-item__title">PSD Ribbon Set</p>
+			<p class="dl-item__text">
+				Free YouTube Player Skin Photoshop (PSD) template. Great for mocking up video content. Free YouTube Player Skin Phtoshop (PSD)
+			</p>
+			<div class="dl-item__footer">
+				<p class="theme-date">10th September 2011</p>
+				<p class="theme-author">By Blaz</p>
+				<p class="theme-comment">11</p>
+				<p class="theme-like">231</p>
+			</div>
+		</div>
+		<div class="downloads__dl-item dl-item">
+			<div class="dl-item__img-box">
+				<span>+</span>
+				<img class="dl-item__image" src="img/fill.png" loading="lazy" alt="">
+			</div>
+			<p class="dl-item__title">PSD Ribbon Set</p>
+			<p class="dl-item__text">
+				Free YouTube Player Skin Photoshop (PSD) template. Great for mocking up video content. Free YouTube Player Skin Phtoshop (PSD)
+			</p>
+			<div class="dl-item__footer">
+				<p class="theme-date">10th September 2011</p>
+				<p class="theme-author">By Blaz</p>
+				<p class="theme-comment">11</p>
+				<p class="theme-like">231</p>
+			</div>
+		</div>
+		<div class="downloads__dl-item dl-item">
+			<div class="dl-item__img-box">
+				<span>+</span>
+				<img class="dl-item__image" src="img/fill.png" loading="lazy" alt="">
+			</div>
+			<p class="dl-item__title">PSD Ribbon Set</p>
+			<p class="dl-item__text">
+				Free YouTube Player Skin Photoshop (PSD) template. Great for mocking up video content. Free YouTube Player Skin Phtoshop (PSD)
+			</p>
+			<div class="dl-item__footer">
+				<p class="theme-date">10th September 2011</p>
+				<p class="theme-author">By Blaz</p>
+				<p class="theme-comment">11</p>
+				<p class="theme-like">231</p>
+			</div>
+		</div>
+	</section>
+	<section class="search-block container__search-block">
+		<div class="search-block__article article">
+			<p class="article__title">Find Somthing</p>
+			<p class="article__text">
+				All files on this website are Free. Download and use these files for your commercial or personal projects.
+			</p>
+			<form class="search-form article__search-form" action="#">
+				<input class="search-form__input" type="text" placeholder="Looking for Somthing?">
+				<input class="search-form__btn" type="submit" value="GO">
+			</form>
+		</div>
+		<div class="search-block__article article article--order">
+			<p class="article__title">About Your Business Here</p>
+			<p class="article__text">
+				Over the years, I have benefited from hundreds of free online graphic design resources including PSD files, which have been generously shared by a thriving online design community. BlazRobar.com is a way for me to give back to this community.
+			</p>
+		</div>
+		<div class="search-block__article article article--span">
+			<p class="article__title">Search by<i class="fa fa-search" aria-hidden="true"></i></p>
+			<div class="categories">
+				<p class="categories__item"><span>+1 Icon (3)</span></p>
+				<p class="categories__item"><span>+1 Icon (3)</span></p>
+				<p class="categories__item"><span>Add detail to your (1)</span></p>
+				<p class="categories__item"><span>Add detail to your (1)</span></p>
+				<p class="categories__item"><span>Buttons (10)</span></p>
+				<p class="categories__item"><span>Buttons (10)</span></p>
+				<p class="categories__item"><span>Call To Action (19)</span></p>
+				<p class="categories__item"><span>Call To Action (19)</span></p>
+				<p class="categories__item"><span>Clean (6)</span></p>
+				<p class="categories__item"><span>Clean (6)</span></p>
+				<p class="categories__item"><span>Clean and simple (13)</span></p>
+				<p class="categories__item"><span>Clean and simple (13)</span></p>
+				<p class="categories__item"><span>Image Spder (9)</span></p>
+				<p class="categories__item"><span>Image Spder (9)</span></p>
+				<p class="categories__item categories__item--filled"><span>Clean Table Design (7)</span></p>
+				<p class="categories__item categories__item--filled"><span>CSS PSD (32)</span></p>
+			</div>
+		</div>
+	</section>
+	<script src="js/script.js"></script>
+</body>
+</html>

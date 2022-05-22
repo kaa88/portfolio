@@ -1,0 +1,468 @@
+{
+	"news": [
+		{
+			"title": "1 News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "25.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-2.jpg",
+			"video": ""
+		},
+		{
+			"title": "2 News. Lorem ipsum dolor quae nostrum corrupti consequuntur rerum sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "11.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-3.jpg",
+			"video": "true"
+		},
+		{
+			"title": "3 News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "12.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-4.jpg",
+			"video": ""
+		},
+		{
+			"title": "4 News. Lorem ipsum dolor sit amet consectetur adipisicing elit, eius corporis natus dolorum provident.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "05.10.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-1.jpg",
+			"video": ""
+		},
+		{
+			"title": "5 News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "19.08.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-5.jpg",
+			"video": ""
+		},
+		{
+			"title": "6 News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "25.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-2.jpg",
+			"video": "true"
+		},
+		{
+			"title": "7 News. Lorem ipsum dolor quae nostrum corrupti consequuntur rerum sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "11.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-3.jpg",
+			"video": ""
+		},
+		{
+			"title": "8 News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "12.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-4.jpg",
+			"video": "true"
+		},
+		{
+			"title": "9 News. Lorem ipsum dolor sit amet consectetur adipisicing elit, eius corporis natus dolorum provident.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "05.10.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-1.jpg",
+			"video": "true"
+		},
+		{
+			"title": "10 News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "19.08.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-5.jpg",
+			"video": "true"
+		},
+		{
+			"title": "11 News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "25.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-2.jpg",
+			"video": ""
+		},
+		{
+			"title": "12 News. Lorem ipsum dolor quae nostrum corrupti consequuntur rerum sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "11.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-3.jpg",
+			"video": "true"
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "12.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-4.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit, eius corporis natus dolorum provident.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "05.10.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-1.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "25.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-2.jpg",
+			"video": "true"
+		},
+		{
+			"title": "News. Lorem ipsum dolor quae nostrum corrupti consequuntur rerum sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "11.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-3.jpg",
+			"video": "true"
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "12.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-4.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit, eius corporis natus dolorum provident.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "05.10.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-1.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "19.08.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-5.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "12.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-4.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "25.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-2.jpg",
+			"video": "true"
+		},
+		{
+			"title": "News. Lorem ipsum dolor quae nostrum corrupti consequuntur rerum sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "11.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-3.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "12.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-4.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit, eius corporis natus dolorum provident.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "05.10.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-1.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "19.08.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-5.jpg",
+			"video": "true"
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "25.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-2.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor quae nostrum corrupti consequuntur rerum sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "11.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-3.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "12.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-4.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit, eius corporis natus dolorum provident.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "05.10.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-1.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "25.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-2.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor quae nostrum corrupti consequuntur rerum sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "11.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-3.jpg",
+			"video": "true"
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "12.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-4.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit, eius corporis natus dolorum provident.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "05.10.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-1.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "19.08.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-5.jpg",
+			"video": "true"
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "25.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-2.jpg",
+			"video": "true"
+		},
+		{
+			"title": "News. Lorem ipsum dolor quae nostrum corrupti consequuntur rerum sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "11.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-3.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "12.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-4.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit, eius corporis natus dolorum provident.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "05.10.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-1.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "19.08.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-5.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "25.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-2.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor quae nostrum corrupti consequuntur rerum sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "11.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-3.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "12.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-4.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit, eius corporis natus dolorum provident.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "05.10.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-1.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "25.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-2.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor quae nostrum corrupti consequuntur rerum sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "11.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-3.jpg",
+			"video": "true"
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "12.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-4.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit, eius corporis natus dolorum provident.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "05.10.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-1.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "19.08.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-5.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "25.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-2.jpg",
+			"video": "true"
+		},
+		{
+			"title": "News. Lorem ipsum dolor quae nostrum corrupti consequuntur rerum sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "11.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-3.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "12.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-4.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit, eius corporis natus dolorum provident.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "05.10.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-1.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "19.08.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-5.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "25.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-2.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor quae nostrum corrupti consequuntur rerum sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "11.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-3.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "12.09.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-4.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit, eius corporis natus dolorum provident.",
+			"text": "Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "05.10.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-1.jpg",
+			"video": ""
+		},
+		{
+			"title": "News. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+			"text": "Inventore debitis eligendi atque deserunt nihil neque eveniet. Obcaecati harum libero quae nostrum corrupti consequuntur rerum deleniti tempora facere laboriosam ut labore quos, eius corporis natus dolorum provident.",
+			"date": "19.08.2019",
+			"link": "news-article.html",
+			"imgLink": "img/news-5.jpg",
+			"video": ""
+		}
+	]
+}

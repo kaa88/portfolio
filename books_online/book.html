@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Books Online</title>
+	<meta name="description" content="Books online store">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/style.min.css"> -->
+</head>
+<body>
+<noscript>
+	<div class="noscript-alert">
+		<p>For full functionality of this site it is necessary to enable JavaScript.<br>Here are the <a href="https://www.enable-javascript.com/">instructions how to enable JavaScript in your web browser</a>.</p><br>
+		<p>Для полной функциональности этого сайта необходимо включить JavaScript.<br>Вот <a href="https://www.enable-javascript.com/ru/">инструкции, как включить JavaScript в вашем браузере</a>.</p>
+	</div>
+</noscript>
+
+<header class="header">
+	<div class="header__logo logo">
+		<a class="logo__link" href="index.html">
+			home
+			<img src="img/logo.png" alt="logo">
+		</a>
+	</div>
+	<div class="menu-open-btn"><span></span></div>
+
+	<div class="header__hiding-menu">
+		<div class="header-top">
+			<div class="container">
+				<div class="header-top__links">
+					<a class="header-top__link" href="#">Sign in</a>
+					<a class="header-top__link" href="#">My Account</a>
+					<a class="header-top__link" href="#">Order Status</a>
+					<a class="header-top__link" href="#">Help</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="header-main">
+			<div class="container">
+				<div class="header-main__logo logo">
+					<a class="logo__link" href="index.html">
+						home
+						<img src="img/logo.png" alt="logo">
+					</a>
+				</div>
+
+				<div class="header-main__search search">
+					<div class="search__bar">
+						<input class="search__input" type="text">
+						<button class="search__btn"><i class="icon-search"></i><span>Search</span></button>
+					</div>
+				</div>
+
+				<div class="header-main__cart cart">
+					<div class="cart__top">
+						<i class="icon-cart"></i>
+						<span class="cart__info">Your cart</span>
+						<div class="cart__items">(<span class="cart__items-num">2 items</span>)</div>
+					</div>
+					<div class="cart__bottom">
+						<div class="cart__total">$125.0</div>
+						<a class="cart__button" href="#">Checkout</a>
+					</div>
+				</div>
+
+				<div class="header-main__wishlist wishlist">
+					<a class="wishlist__link" href="#">
+						<i class="icon-star"></i>
+						<span class="wishlist__text">Wish list</span>
+						<span class="wishlist__num">20</span>
+					</a>
+				</div>
+
+			</div>
+		</div>
+
+		<nav class="header__menu menu">
+			<div class="menu__container container">
+				<ul class="menu__items">
+					<li class="menu__item" data-name="computers">
+						<a class="menu__link" href="index.html?genre=computer">Computers</a>
+					</li>
+					<li class="menu__item" data-name="cooking">
+						<a class="menu__link" href="index.html?genre=cook">Cooking</a>
+					</li>
+					<li class="menu__item" data-name="education">
+						<a class="menu__link" href="index.html?genre=history">Education</a>
+					</li>
+					<li class="menu__item" data-name="fiction">
+						<a class="menu__link" href="index.html?genre=literature">Fiction</a>
+					</li>
+					<li class="menu__item" data-name="health">
+						<a class="menu__link" href="index.html?genre=psychology">Health</a>
+					</li>
+					<li class="menu__item" data-name="mathematics">
+						<a class="menu__link" href="index.html?genre=sex">Mathematics</a>
+					</li>
+					<li class="menu__item" data-name="medical">
+						<a class="menu__link" href="index.html?genre=medical">Medical</a>
+					</li>
+					<li class="menu__item" data-name="reference">
+						<a class="menu__link" href="index.html?genre=law">Reference</a>
+					</li>
+					<li class="menu__item" data-name="science">
+						<a class="menu__link" href="index.html?genre=science">Science</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+	</div>
+	<div class="header__print-address">address.com</div>
+</header>
+
+<script id="headerMenuOptions">
+</script>
+
+<main class="content --page-book">
+
+	<nav class="content__breadcrumbs breadcrumbs container">
+		<div class="breadcrumbs__wrapper">
+			<a class="breadcrumbs__link" href="index.html">Home</a>
+			<span class="breadcrumbs__devider">»</span>
+			<a class="breadcrumbs__link" href="index.html?genre=children" data-dynamic="genre"></a>
+			<span class="breadcrumbs__devider">»</span>
+			<span class="breadcrumbs__this" data-dynamic="title"></span>
+		</div>
+	</nav>
+
+	<section class="content__product-card product-card container">
+		<div class="product-card__wrapper">
+			<div class="product-card__image">
+				<img src="" alt="" data-dynamic="image">
+			</div>
+			<span class="product-card__icon">in stock</span>
+			<p class="product-card__title" data-dynamic="title"></p>
+			<p class="product-card__info" data-dynamic="description"></p>
+			<div class="product-card__cart">
+				<div class="product-card__cart-top">
+					<div class="product-card__price-box">
+						<span class="product-card__price-text">Our price :</span>
+						<span class="product-card__price" data-dynamic="price"></span>
+						<span class="product-card__discount">Was $200 Save 20%</span>
+					</div>
+					<button class="product-card__button">Add to cart</button>
+				</div>
+				<p class="product-card__banking"><i class="icon-lock"></i>Safe, Secure Shopping</p>
+				<div class="product-card__banking-logos">
+					<img src="img/payment-4.jpg" alt="PayPal">
+					<img src="img/payment-2.jpg" alt="Mastercard">
+					<img src="img/payment-5.jpg" alt="Visa">
+					<img src="img/payment-3.jpg" alt="American Express">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="content__product-other product-other container">
+
+			<div class="product-other__tabs tabs">
+				<div class="tabs__buttons">
+					<div class="tabs__btn _active">Product Information</div>
+					<div class="tabs__btn">Other details</div>
+				</div>
+				<div class="tabs__content">
+					<p class="tabs__content-item _active" data-dynamic="info"></p>
+					<p class="tabs__content-item" data-dynamic="details"></p>
+				</div>
+			</div>
+
+		<div class="product-other__comments-block comments-block">
+			<div class="comments-block__title">Product review</div>
+			<div class="comments-block__comments">
+				<div class="comments-block__comment comment">
+					<div class="comment__user-img">
+						<img src="img/user.jpg" alt="person image">
+					</div>
+					<p class="comment__user-name">Name 1</p>
+					<p class="comment__text">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially 
+					</p>
+				</div>
+				<div class="comments-block__comment comment">
+					<div class="comment__user-img">
+						<img src="img/user.jpg" alt="person image">
+					</div>
+					<p class="comment__user-name">Name 2</p>
+					<p class="comment__text">
+						Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quaerat, nesciunt obcaecati, illo temporibus doloribus dolore totam dicta in corrupti, animi ratione! Laudantium consequatur praesentium cupiditate id voluptatibus dicta aut deserunt consectetur iusto iste aliquam quae nisi laborum, suscipit inventore asperiores sapiente porro magni! Architecto aliquid eligendi labore culpa quia iste! 
+					</p>
+				</div>
+			</div>
+			<div class="comments-block__title">Write a comment</div>
+			<form action="#" class="comments-block__comment-form comment-form" name="comment-form">
+				<div class="form-report"></div>
+				<span class="comment-form__label">Your name</span>
+				<input class="comment-form__input _req" type="text" name="name">
+				<span class="comment-form__label">email</span>
+				<input class="comment-form__input _req" type="text" name="email">
+				<span class="comment-form__label">Message</span>
+				<textarea class="comment-form__texa _req" name="message"></textarea>
+				<button class="comment-form__btn" type="submit">
+					Submit
+					<span class="progress">
+						<span class="progress__box">
+							<i></i><i></i><i></i>
+						</span>
+					</span>
+				</button>
+			</form>
+		</div>
+		<div class="product-other__also-like also-like">
+			<div class="also-like__title">You may also like</div>
+			<div class="also-like__items">
+
+				<a class="also-like__item" href="#" data-dynamic="link">
+					<span class="also-like__item-img">
+						<img src="" alt="" data-dynamic="image">
+					</span>
+					<span class="also-like__item-title" data-dynamic="title"></span>
+					<span class="also-like__item-price" data-dynamic="price"></span>
+					<span class="also-like__item-btn">Read more</span>
+				</a>
+				
+			</div>
+		</div>
+	</section>
+
+
+</main>
+
+<footer class="footer">
+
+		<section class="footer-top">
+			<div class="footer-top__container container">
+
+				<div class="footer-top__group">
+					<input class="footer-top__radio" type="radio" id="ftr-group1" name="footer-radio" checked>
+					<label for="ftr-group1">
+						<h4 class="footer-top__title">Biography & True Stories<i class="icon-arrow"></i></h4>
+						<ul class="footer-top__items">
+							<li class="footer-top__item"><a href="#">General</a></li>
+							<li class="footer-top__item"><a href="#">Diaries, Letters & Journals</a></li>
+							<li class="footer-top__item"><a href="#">Memoirs</a></li>
+							<li class="footer-top__item"><a href="#">True Stories</a></li>
+							<li class="footer-top__item"><a href="#">Generic Exams</a></li>
+							<li class="footer-top__item"><a href="#">GK Titles</a></li>
+							<li class="footer-top__item"><a href="#">Medical Entrance</a></li>
+							<li class="footer-top__item"><a href="#">Other Entrance Exams</a></li>
+							<li class="footer-top__item"><a href="#">PG Entrance Examinations</a></li>
+							<li class="footer-top__item"><a href="#">Self-help Titles</a></li>
+							<li class="footer-top__item"><a href="#">Sociology</a></li>
+						</ul>
+					</label>
+				</div>
+				<div class="footer-top__group">
+					<input class="footer-top__radio" type="radio" id="ftr-group2" name="footer-radio">
+					<label for="ftr-group2">
+						<h4 class="footer-top__title">Professional & Reference<i class="icon-arrow"></i></h4>
+						<ul class="footer-top__items">
+							<li class="footer-top__item"><a href="#">Academic and Reference</a></li>
+							<li class="footer-top__item"><a href="#">Business Trade</a></li>
+							<li class="footer-top__item"><a href="#">Engineering and Computer Science</a></li>
+							<li class="footer-top__item"><a href="#">Humanities, Social Sciences and Languages</a></li>
+							<li class="footer-top__item"><a href="#">Introduction to Computers</a></li>
+							<li class="footer-top__item"><a href="#">Science and Maths</a></li>
+							<li class="footer-top__item"><a href="#">Trade Business</a></li>
+							<li class="footer-top__item"><a href="#">English Language & Literature</a></li>
+							<li class="footer-top__item"><a href="#">English Language Teaching</a></li>
+							<li class="footer-top__item"><a href="#">Environment Awareness</a></li>
+							<li class="footer-top__item"><a href="#">Environment Protection </a></li>
+						</ul>
+					</label>
+				</div>
+				<div class="footer-top__group">
+					<input class="footer-top__radio" type="radio" id="ftr-group3" name="footer-radio">
+					<label for="ftr-group3">
+						<h4 class="footer-top__title">Earth Sciences<i class="icon-arrow"></i></h4>
+						<ul class="footer-top__items">
+							<li class="footer-top__item"><a href="#">Earth Sciences</a></li>
+							<li class="footer-top__item"><a href="#">Geography</a></li>
+							<li class="footer-top__item"><a href="#">The Environment</a></li>
+							<li class="footer-top__item"><a href="#">Regional & Area Planning</a></li>
+							<li class="footer-top__item"><a href="#">Fantasy</a></li>
+							<li class="footer-top__item"><a href="#">Gay</a></li>
+							<li class="footer-top__item"><a href="#">Humorous</a></li>
+							<li class="footer-top__item"><a href="#">Interactive</a></li>
+							<li class="footer-top__item"><a href="#">Legal</a></li>
+							<li class="footer-top__item"><a href="#">Lesbian</a></li>
+							<li class="footer-top__item"><a href="#">Men'S Adventure</a></li>
+						</ul>
+					</label>
+				</div>
+				<div class="footer-top__group">
+					<input class="footer-top__radio" type="radio" id="ftr-group4" name="footer-radio">
+					<label for="ftr-group4">
+						<h4 class="footer-top__title">Mathematics<i class="icon-arrow"></i></h4>
+						<ul class="footer-top__items">
+							<li class="footer-top__item"><a href="#">Algebra</a></li>
+							<li class="footer-top__item"><a href="#">Differential Equations</a></li>
+							<li class="footer-top__item"><a href="#">Discrete Mathematics</a></li>
+							<li class="footer-top__item"><a href="#">Fourier Analysis</a></li>
+							<li class="footer-top__item"><a href="#">Numerical Analysis</a></li>
+							<li class="footer-top__item"><a href="#">Probability</a></li>
+							<li class="footer-top__item"><a href="#">Statistical Methods/data Analysis</a></li>
+							<li class="footer-top__item"><a href="#">Stochastic And Random Processes</a></li>
+							<li class="footer-top__item"><a href="#">Topology</a></li>
+							<li class="footer-top__item"><a href="#">Statistics</a></li>
+							<li class="footer-top__item"><a href="#">Statistical Methods</a></li>
+						</ul>
+					</label>
+				</div>
+			</div>
+		</section>
+
+		<section class="footer-bottom">
+			<p class="footer-bottom__banking-title">
+				We accept all major Credit Card/Debit Card/Internet Banking
+			</p>
+			<div class="footer-bottom__banking-logos">
+				<img src="img/payment-2.jpg" alt="Mastercard">
+				<img src="img/payment-3.jpg" alt="American Express">
+				<img src="img/payment-1.jpg" alt="Visa">
+			</div>
+			<p class="footer-bottom__copy">
+				Conditions of Use Privacy Notice © 2012-2013, Booksonline Inc. or its affiliates
+			</p>
+		</section>
+
+</footer>
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+<!-- <script src="js/script.min.js"></script> -->
+</body>
+</html>

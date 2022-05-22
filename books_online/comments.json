@@ -1,0 +1,1613 @@
+[
+	{
+		"genre": "fantasy",
+		"categories": ["best", "new", "special"],
+		"title": "The Hare With Amber Eyes",
+		"price": "$50",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-01.jpg"
+	},
+	{
+		"genre": "literature",
+		"categories": ["best"],
+		"title": "The War of Art",
+		"price": "$60",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-02.jpg"
+	},
+	{
+		"genre": "romance",
+		"categories": ["best", "special", "used"],
+		"title": "Can love happen twice?",
+		"price": "$25",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-03.jpg"
+	},
+	{
+		"genre": "horror",
+		"categories": ["best", "new"],
+		"title": "The Immortals of Meluha",
+		"price": "$80",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-04.jpg"
+	},
+	{
+		"genre": "children",
+		"categories": ["best"],
+		"title": "Life Is What You Make It",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-05.jpg"
+	},
+	{
+		"genre": "crime",
+		"categories": ["best", "new"],
+		"title": "Marathon Baba",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-06.jpg"
+	},
+	{
+		"genre": "poetry",
+		"categories": ["best", "used"],
+		"title": "Calico Joe",
+		"price": "$150",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-07.jpg"
+	},
+	{
+		"genre": "mystery",
+		"categories": ["best", "used", "special"],
+		"title": "The long dark tea-time of the soul",
+		"price": "$100",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-08.jpg"
+	},
+	{
+		"genre": "mystery",
+		"categories": ["best", "new"],
+		"title": "The Armageddon Rag",
+		"price": "$152",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-09.jpg"
+	},
+	{
+		"genre": "romance",
+		"categories": ["best", "new"],
+		"title": "A Walk Across the Sun",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-10.jpg"
+	},
+	{
+		"genre": "crime",
+		"categories": ["best", "new"],
+		"title": "The Sins of the Father",
+		"price": "$220",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-11.jpg"
+	},
+	{
+		"genre": "science_fiction",
+		"categories": ["best", "new"],
+		"title": "The Magic",
+		"price": "$60",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-12.jpg"
+	},
+	{
+		"genre": "poetry",
+		"categories": ["best", "used"],
+		"title": "Cross Roads",
+		"price": "$22",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-13.jpg"
+	},
+	{
+		"genre": "fantasy",
+		"categories": ["best", "special"],
+		"title": "Star Wars Episode I",
+		"price": "$300",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-15.jpg"
+	},
+	{
+		"genre": "literature",
+		"categories": ["best", "new"],
+		"title": "I newer knew it was you",
+		"price": "$205",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-14.jpg"
+	},
+	{
+		"genre": "history",
+		"categories": ["best", "new"],
+		"title": "Dolor sit amet consectetur",
+		"price": "$80",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-04.jpg"
+	},
+	{
+		"genre": "comic",
+		"categories": ["special", "used"],
+		"title": "Inventore accusantium",
+		"price": "$25",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-03.jpg"
+	},
+	{
+		"genre": "art",
+		"categories": ["best", "new", "special"],
+		"title": "Lorem ipsum dolor sit",
+		"price": "$50",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-01.jpg"
+	},
+	{
+		"genre": "sex",
+		"categories": ["best", "special", "used"],
+		"title": "Id vitae perferendis",
+		"price": "$60",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-02.jpg"
+	},
+	{
+		"genre": "children",
+		"categories": ["best"],
+		"title": "Inventore accusantium, sunt",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-05.jpg"
+	},
+	{
+		"genre": "crime",
+		"categories": ["new"],
+		"title": "Magni reiciendis",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-06.jpg"
+	},
+	{
+		"genre": "poetry",
+		"categories": ["best", "special", "used"],
+		"title": "Reprehenderit",
+		"price": "$150",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-07.jpg"
+	},
+	{
+		"genre": "medical",
+		"categories": ["best", "used", "special"],
+		"title": "Cum quaerat culpa",
+		"price": "$100",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-08.jpg"
+	},
+	{
+		"genre": "crime",
+		"categories": ["best", "new"],
+		"title": "Vitae perferendis animi",
+		"price": "$220",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-11.jpg"
+	},
+	{
+		"genre": "science_fiction",
+		"categories": ["best", "used"],
+		"title": "Omnis sed!",
+		"price": "$10",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-12.jpg"
+	},
+	{
+		"genre": "mystery",
+		"categories": ["best", "new"],
+		"title": "Nesciunt repellendus corrupti",
+		"price": "$152",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-09.jpg"
+	},
+	{
+		"genre": "photography",
+		"categories": ["best", "special", "used"],
+		"title": "Blanditiis, maiores voluptate",
+		"price": "$200",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-10.jpg"
+	},
+	{
+		"genre": "baby",
+		"categories": ["used", "special"],
+		"title": "Debitis, culpa?",
+		"price": "$300",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-15.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["new"],
+		"title": "Debitis quos ipsum",
+		"price": "$205",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-14.jpg"
+	},
+	{
+		"genre": "sex",
+		"categories": ["special", "used"],
+		"title": "Minima ea facilis quasi",
+		"price": "$5",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-13.jpg"
+	},
+	{
+		"genre": "history",
+		"categories": ["best", "used"],
+		"title": "Dolor sit amet consectetur",
+		"price": "$80",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-04.jpg"
+	},
+	{
+		"genre": "comic",
+		"categories": ["best", "special", "used"],
+		"title": "Inventore accusantium",
+		"price": "$25",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-03.jpg"
+	},
+	{
+		"genre": "art",
+		"categories": ["new", "special"],
+		"title": "Lorem ipsum dolor sit",
+		"price": "$50",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-01.jpg"
+	},
+	{
+		"genre": "science",
+		"categories": ["best", "special", "used"],
+		"title": "Id vitae perferendis",
+		"price": "$60",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-02.jpg"
+	},
+	{
+		"genre": "cook",
+		"categories": ["new"],
+		"title": "Inventore accusantium, sunt",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-05.jpg"
+	},
+	{
+		"genre": "crime",
+		"categories": ["best", "special", "used"],
+		"title": "Magni reiciendis",
+		"price": "$200",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-06.jpg"
+	},
+	{
+		"genre": "poetry",
+		"categories": ["best", "used"],
+		"title": "Reprehenderit",
+		"price": "$150",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-07.jpg"
+	},
+	{
+		"genre": "sex",
+		"categories": ["new"],
+		"title": "Cum quaerat culpa",
+		"price": "$100",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-08.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["best", "new"],
+		"title": "Vitae perferendis animi",
+		"price": "$220",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-11.jpg"
+	},
+	{
+		"genre": "science_fiction",
+		"categories": ["best", "special", "used"],
+		"title": "Omnis sed!",
+		"price": "$10",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-12.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["best", "new"],
+		"title": "Nesciunt repellendus corrupti",
+		"price": "$152",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-09.jpg"
+	},
+	{
+		"genre": "photography",
+		"categories": ["new"],
+		"title": "Blanditiis, maiores voluptate",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-10.jpg"
+	},
+	{
+		"genre": "baby",
+		"categories": ["used", "special"],
+		"title": "Debitis, culpa?",
+		"price": "$300",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-15.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["new"],
+		"title": "Debitis quos ipsum",
+		"price": "$205",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-14.jpg"
+	},
+	{
+		"genre": "science",
+		"categories": ["best", "special", "used"],
+		"title": "Minima ea facilis quasi",
+		"price": "$5",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-13.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["new"],
+		"title": "Dolor sit amet consectetur",
+		"price": "$80",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-04.jpg"
+	},
+	{
+		"genre": "comic",
+		"categories": ["special", "used"],
+		"title": "Inventore accusantium",
+		"price": "$25",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-03.jpg"
+	},
+	{
+		"genre": "art",
+		"categories": ["best", "new", "special"],
+		"title": "Lorem ipsum dolor sit",
+		"price": "$50",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-01.jpg"
+	},
+	{
+		"genre": "travel",
+		"categories": ["best", "special", "new"],
+		"title": "Id vitae perferendis",
+		"price": "$60",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-02.jpg"
+	},
+	{
+		"genre": "children",
+		"categories": ["best"],
+		"title": "Inventore accusantium, sunt",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-05.jpg"
+	},
+	{
+		"genre": "crime",
+		"categories": ["best", "new"],
+		"title": "Magni reiciendis",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-06.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["best", "special", "used"],
+		"title": "Reprehenderit",
+		"price": "$150",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-07.jpg"
+	},
+	{
+		"genre": "science",
+		"categories": ["best", "new", "special"],
+		"title": "Cum quaerat culpa",
+		"price": "$100",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-08.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["best", "new"],
+		"title": "Vitae perferendis animi",
+		"price": "$220",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-11.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["best", "used"],
+		"title": "Omnis sed!",
+		"price": "$10",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-12.jpg"
+	},
+	{
+		"genre": "horror",
+		"categories": ["best", "used"],
+		"title": "Nesciunt repellendus corrupti",
+		"price": "$152",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-09.jpg"
+	},
+	{
+		"genre": "photography",
+		"categories": ["best"],
+		"title": "Blanditiis, maiores voluptate",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-10.jpg"
+	},
+	{
+		"genre": "psychology",
+		"categories": ["new", "special"],
+		"title": "Debitis, culpa?",
+		"price": "$300",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-15.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["best", "special", "used"],
+		"title": "Debitis quos ipsum",
+		"price": "$205",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-14.jpg"
+	},
+	{
+		"genre": "sex",
+		"categories": ["special", "used"],
+		"title": "Minima ea facilis quasi",
+		"price": "$5",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-13.jpg"
+	},
+	{
+		"genre": "history",
+		"categories": ["best", "new"],
+		"title": "Dolor sit amet consectetur",
+		"price": "$80",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-04.jpg"
+	},
+	{
+		"genre": "psychology",
+		"categories": ["special", "used"],
+		"title": "Inventore accusantium",
+		"price": "$25",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-03.jpg"
+	},
+	{
+		"genre": "law",
+		"categories": ["best", "new", "special"],
+		"title": "Lorem ipsum dolor sit",
+		"price": "$50",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-01.jpg"
+	},
+	{
+		"genre": "sex",
+		"categories": ["best"],
+		"title": "Id vitae perferendis",
+		"price": "$60",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-02.jpg"
+	},
+	{
+		"genre": "children",
+		"categories": ["best"],
+		"title": "Inventore accusantium, sunt",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-05.jpg"
+	},
+	{
+		"genre": "comic",
+		"categories": ["best", "new"],
+		"title": "Magni reiciendis",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-06.jpg"
+	},
+	{
+		"genre": "poetry",
+		"categories": ["best", "special", "used"],
+		"title": "Reprehenderit",
+		"price": "$150",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-07.jpg"
+	},
+	{
+		"genre": "sex",
+		"categories": ["best", "used", "special"],
+		"title": "Cum quaerat culpa",
+		"price": "$100",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-08.jpg"
+	},
+	{
+		"genre": "psychology",
+		"categories": ["best", "new"],
+		"title": "Vitae perferendis animi",
+		"price": "$220",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-11.jpg"
+	},
+	{
+		"genre": "comic",
+		"categories": ["best", "used"],
+		"title": "Omnis sed!",
+		"price": "$10",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-12.jpg"
+	},
+	{
+		"genre": "psychology",
+		"categories": ["best", "new"],
+		"title": "Nesciunt repellendus corrupti",
+		"price": "$152",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-09.jpg"
+	},
+	{
+		"genre": "history",
+		"categories": ["new"],
+		"title": "Blanditiis, maiores voluptate",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-10.jpg"
+	},
+	{
+		"genre": "baby",
+		"categories": ["new", "special"],
+		"title": "Debitis, culpa?",
+		"price": "$300",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-15.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["new"],
+		"title": "Debitis quos ipsum",
+		"price": "$205",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-14.jpg"
+	},
+	{
+		"genre": "psychology",
+		"categories": ["best", "special", "used"],
+		"title": "Minima ea facilis quasi",
+		"price": "$5",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-13.jpg"
+	},
+	{
+		"genre": "history",
+		"categories": ["best", "new"],
+		"title": "Dolor sit amet consectetur",
+		"price": "$80",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-04.jpg"
+	},
+	{
+		"genre": "comic",
+		"categories": ["best", "special", "used"],
+		"title": "Inventore accusantium",
+		"price": "$25",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-03.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["new", "special"],
+		"title": "Lorem ipsum dolor sit",
+		"price": "$50",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-01.jpg"
+	},
+	{
+		"genre": "travel",
+		"categories": ["best"],
+		"title": "Id vitae perferendis",
+		"price": "$60",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-02.jpg"
+	},
+	{
+		"genre": "psychology",
+		"categories": ["best"],
+		"title": "Inventore accusantium, sunt",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-05.jpg"
+	},
+	{
+		"genre": "crime",
+		"categories": ["new"],
+		"title": "Magni reiciendis",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-06.jpg"
+	},
+	{
+		"genre": "medical",
+		"categories": ["best", "used"],
+		"title": "Reprehenderit",
+		"price": "$150",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-07.jpg"
+	},
+	{
+		"genre": "cook",
+		"categories": ["best", "used", "special"],
+		"title": "Cum quaerat culpa",
+		"price": "$100",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-08.jpg"
+	},
+	{
+		"genre": "cook",
+		"categories": ["best", "new"],
+		"title": "Vitae perferendis animi",
+		"price": "$220",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-11.jpg"
+	},
+	{
+		"genre": "law",
+		"categories": ["best", "new"],
+		"title": "Omnis sed!",
+		"price": "$10",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-12.jpg"
+	},
+	{
+		"genre": "business",
+		"categories": ["best", "new"],
+		"title": "Nesciunt repellendus corrupti",
+		"price": "$152",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-09.jpg"
+	},
+	{
+		"genre": "science",
+		"categories": ["best"],
+		"title": "Blanditiis, maiores voluptate",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-10.jpg"
+	},
+	{
+		"genre": "baby",
+		"categories": ["best", "special", "used"],
+		"title": "Debitis, culpa?",
+		"price": "$300",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-15.jpg"
+	},
+	{
+		"genre": "baby",
+		"categories": ["new"],
+		"title": "Debitis quos ipsum",
+		"price": "$205",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-14.jpg"
+	},
+	{
+		"genre": "fantasy",
+		"categories": ["best", "new", "special"],
+		"title": "The Hare With Amber Eyes",
+		"price": "$50",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-01.jpg"
+	},
+	{
+		"genre": "literature",
+		"categories": ["best"],
+		"title": "The War of Art",
+		"price": "$60",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-02.jpg"
+	},
+	{
+		"genre": "romance",
+		"categories": ["best", "special", "used"],
+		"title": "Can love happen twice?",
+		"price": "$25",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-03.jpg"
+	},
+	{
+		"genre": "horror",
+		"categories": ["best", "new"],
+		"title": "The Immortals of Meluha",
+		"price": "$80",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-04.jpg"
+	},
+	{
+		"genre": "children",
+		"categories": ["best"],
+		"title": "Life Is What You Make It",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-05.jpg"
+	},
+	{
+		"genre": "crime",
+		"categories": ["best", "new"],
+		"title": "Marathon Baba",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-06.jpg"
+	},
+	{
+		"genre": "poetry",
+		"categories": ["best", "new"],
+		"title": "Calico Joe",
+		"price": "$150",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-07.jpg"
+	},
+	{
+		"genre": "mystery",
+		"categories": ["best", "used", "special"],
+		"title": "The long dark tea-time of the soul",
+		"price": "$100",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-08.jpg"
+	},
+	{
+		"genre": "mystery",
+		"categories": ["best", "new"],
+		"title": "The Armageddon Rag",
+		"price": "$152",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-09.jpg"
+	},
+	{
+		"genre": "romance",
+		"categories": ["best"],
+		"title": "A Walk Across the Sun",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-10.jpg"
+	},
+	{
+		"genre": "crime",
+		"categories": ["best", "new"],
+		"title": "The Sins of the Father",
+		"price": "$220",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-11.jpg"
+	},
+	{
+		"genre": "science_fiction",
+		"categories": ["best", "used"],
+		"title": "The Magic",
+		"price": "$10",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-12.jpg"
+	},
+	{
+		"genre": "poetry",
+		"categories": ["best", "new"],
+		"title": "Cross Roads",
+		"price": "$22",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-13.jpg"
+	},
+	{
+		"genre": "fantasy",
+		"categories": ["best", "special", "used"],
+		"title": "Star Wars Episode I",
+		"price": "$300",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-15.jpg"
+	},
+	{
+		"genre": "literature",
+		"categories": ["best", "new"],
+		"title": "I newer knew it was you",
+		"price": "$205",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-14.jpg"
+	},
+	{
+		"genre": "history",
+		"categories": ["new"],
+		"title": "Dolor sit amet consectetur",
+		"price": "$80",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-04.jpg"
+	},
+	{
+		"genre": "comic",
+		"categories": ["special", "used"],
+		"title": "Inventore accusantium",
+		"price": "$25",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-03.jpg"
+	},
+	{
+		"genre": "art",
+		"categories": ["new", "special"],
+		"title": "Lorem ipsum dolor sit",
+		"price": "$50",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-01.jpg"
+	},
+	{
+		"genre": "sex",
+		"categories": ["best", "special", "used"],
+		"title": "Id vitae perferendis",
+		"price": "$60",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-02.jpg"
+	},
+	{
+		"genre": "children",
+		"categories": ["best"],
+		"title": "Inventore accusantium, sunt",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-05.jpg"
+	},
+	{
+		"genre": "crime",
+		"categories": ["new"],
+		"title": "Magni reiciendis",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-06.jpg"
+	},
+	{
+		"genre": "poetry",
+		"categories": ["best", "special", "used"],
+		"title": "Reprehenderit",
+		"price": "$150",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-07.jpg"
+	},
+	{
+		"genre": "medical",
+		"categories": ["best", "used", "special"],
+		"title": "Cum quaerat culpa",
+		"price": "$100",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-08.jpg"
+	},
+	{
+		"genre": "crime",
+		"categories": ["best", "new"],
+		"title": "Vitae perferendis animi",
+		"price": "$220",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-11.jpg"
+	},
+	{
+		"genre": "science_fiction",
+		"categories": ["best", "used"],
+		"title": "Omnis sed!",
+		"price": "$10",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-12.jpg"
+	},
+	{
+		"genre": "mystery",
+		"categories": ["best", "used"],
+		"title": "Nesciunt repellendus corrupti",
+		"price": "$152",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-09.jpg"
+	},
+	{
+		"genre": "photography",
+		"categories": ["best", "special", "used"],
+		"title": "Blanditiis, maiores voluptate",
+		"price": "$200",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-10.jpg"
+	},
+	{
+		"genre": "baby",
+		"categories": ["used", "special"],
+		"title": "Debitis, culpa?",
+		"price": "$300",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-15.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["new"],
+		"title": "Debitis quos ipsum",
+		"price": "$205",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-14.jpg"
+	},
+	{
+		"genre": "sex",
+		"categories": ["special", "used"],
+		"title": "Minima ea facilis quasi",
+		"price": "$5",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-13.jpg"
+	},
+	{
+		"genre": "history",
+		"categories": ["new"],
+		"title": "Dolor sit amet consectetur",
+		"price": "$80",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-04.jpg"
+	},
+	{
+		"genre": "comic",
+		"categories": ["special", "used"],
+		"title": "Inventore accusantium",
+		"price": "$25",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-03.jpg"
+	},
+	{
+		"genre": "art",
+		"categories": ["best", "used", "special"],
+		"title": "Lorem ipsum dolor sit",
+		"price": "$50",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-01.jpg"
+	},
+	{
+		"genre": "sex",
+		"categories": ["best", "special", "used"],
+		"title": "Id vitae perferendis",
+		"price": "$60",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-02.jpg"
+	},
+	{
+		"genre": "children",
+		"categories": ["new"],
+		"title": "Inventore accusantium, sunt",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-05.jpg"
+	},
+	{
+		"genre": "crime",
+		"categories": ["best", "special", "used"],
+		"title": "Magni reiciendis",
+		"price": "$200",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-06.jpg"
+	},
+	{
+		"genre": "poetry",
+		"categories": ["best", "used"],
+		"title": "Reprehenderit",
+		"price": "$150",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-07.jpg"
+	},
+	{
+		"genre": "sex",
+		"categories": ["new"],
+		"title": "Cum quaerat culpa",
+		"price": "$100",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-08.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["best", "new"],
+		"title": "Vitae perferendis animi",
+		"price": "$220",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-11.jpg"
+	},
+	{
+		"genre": "children",
+		"categories": ["best", "special", "used"],
+		"title": "Omnis sed!",
+		"price": "$10",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-12.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["best", "new"],
+		"title": "Nesciunt repellendus corrupti",
+		"price": "$152",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-09.jpg"
+	},
+	{
+		"genre": "photography",
+		"categories": ["new"],
+		"title": "Blanditiis, maiores voluptate",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-10.jpg"
+	},
+	{
+		"genre": "baby",
+		"categories": ["used", "special"],
+		"title": "Debitis, culpa?",
+		"price": "$300",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-15.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["new"],
+		"title": "Debitis quos ipsum",
+		"price": "$205",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-14.jpg"
+	},
+	{
+		"genre": "travel",
+		"categories": ["best", "special", "used"],
+		"title": "Minima ea facilis quasi",
+		"price": "$5",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-13.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["new"],
+		"title": "Dolor sit amet consectetur",
+		"price": "$80",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-04.jpg"
+	},
+	{
+		"genre": "comic",
+		"categories": ["best", "special", "used"],
+		"title": "Inventore accusantium",
+		"price": "$25",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-03.jpg"
+	},
+	{
+		"genre": "art",
+		"categories": ["new", "special"],
+		"title": "Lorem ipsum dolor sit",
+		"price": "$50",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-01.jpg"
+	},
+	{
+		"genre": "sex",
+		"categories": ["best", "special", "used"],
+		"title": "Id vitae perferendis",
+		"price": "$60",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-02.jpg"
+	},
+	{
+		"genre": "children",
+		"categories": ["best"],
+		"title": "Inventore accusantium, sunt",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-05.jpg"
+	},
+	{
+		"genre": "crime",
+		"categories": ["best", "new"],
+		"title": "Magni reiciendis",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-06.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["best", "special", "used"],
+		"title": "Reprehenderit",
+		"price": "$150",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-07.jpg"
+	},
+	{
+		"genre": "travel",
+		"categories": ["best", "used", "special"],
+		"title": "Cum quaerat culpa",
+		"price": "$100",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-08.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["best", "new"],
+		"title": "Vitae perferendis animi",
+		"price": "$220",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-11.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["best", "used"],
+		"title": "Omnis sed!",
+		"price": "$10",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-12.jpg"
+	},
+	{
+		"genre": "mystery",
+		"categories": ["best", "new"],
+		"title": "Nesciunt repellendus corrupti",
+		"price": "$152",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-09.jpg"
+	},
+	{
+		"genre": "photography",
+		"categories": ["best"],
+		"title": "Blanditiis, maiores voluptate",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-10.jpg"
+	},
+	{
+		"genre": "psychology",
+		"categories": ["new", "special"],
+		"title": "Debitis, culpa?",
+		"price": "$300",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-15.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["best", "special", "used"],
+		"title": "Debitis quos ipsum",
+		"price": "$205",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-14.jpg"
+	},
+	{
+		"genre": "sex",
+		"categories": ["special", "used"],
+		"title": "Minima ea facilis quasi",
+		"price": "$5",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-13.jpg"
+	},
+	{
+		"genre": "history",
+		"categories": ["best", "used"],
+		"title": "Dolor sit amet consectetur",
+		"price": "$80",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-04.jpg"
+	},
+	{
+		"genre": "psychology",
+		"categories": ["special", "used"],
+		"title": "Inventore accusantium",
+		"price": "$25",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-03.jpg"
+	},
+	{
+		"genre": "law",
+		"categories": ["best", "used", "special"],
+		"title": "Lorem ipsum dolor sit",
+		"price": "$50",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-01.jpg"
+	},
+	{
+		"genre": "travel",
+		"categories": ["best"],
+		"title": "Id vitae perferendis",
+		"price": "$60",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-02.jpg"
+	},
+	{
+		"genre": "children",
+		"categories": ["best"],
+		"title": "Inventore accusantium, sunt",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-05.jpg"
+	},
+	{
+		"genre": "comic",
+		"categories": ["new"],
+		"title": "Magni reiciendis",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-06.jpg"
+	},
+	{
+		"genre": "literature",
+		"categories": ["best", "special", "used"],
+		"title": "Reprehenderit",
+		"price": "$150",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-07.jpg"
+	},
+	{
+		"genre": "travel",
+		"categories": ["best", "used", "special"],
+		"title": "Cum quaerat culpa",
+		"price": "$100",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-08.jpg"
+	},
+	{
+		"genre": "psychology",
+		"categories": ["best", "new"],
+		"title": "Vitae perferendis animi",
+		"price": "$220",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-11.jpg"
+	},
+	{
+		"genre": "comic",
+		"categories": ["best", "used"],
+		"title": "Omnis sed!",
+		"price": "$10",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-12.jpg"
+	},
+	{
+		"genre": "psychology",
+		"categories": ["best", "new"],
+		"title": "Nesciunt repellendus corrupti",
+		"price": "$152",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-09.jpg"
+	},
+	{
+		"genre": "history",
+		"categories": ["new"],
+		"title": "Blanditiis, maiores voluptate",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-10.jpg"
+	},
+	{
+		"genre": "baby",
+		"categories": ["new", "special"],
+		"title": "Debitis, culpa?",
+		"price": "$300",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-15.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["new"],
+		"title": "Debitis quos ipsum",
+		"price": "$205",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-14.jpg"
+	},
+	{
+		"genre": "psychology",
+		"categories": ["best", "special", "used"],
+		"title": "Minima ea facilis quasi",
+		"price": "$5",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-13.jpg"
+	},
+	{
+		"genre": "history",
+		"categories": ["new"],
+		"title": "Dolor sit amet consectetur",
+		"price": "$80",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-04.jpg"
+	},
+	{
+		"genre": "comic",
+		"categories": ["special", "used"],
+		"title": "Inventore accusantium",
+		"price": "$25",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-03.jpg"
+	},
+	{
+		"genre": "computer",
+		"categories": ["new", "special"],
+		"title": "Lorem ipsum dolor sit",
+		"price": "$50",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-01.jpg"
+	},
+	{
+		"genre": "travel",
+		"categories": ["best"],
+		"title": "Id vitae perferendis",
+		"price": "$60",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-02.jpg"
+	},
+	{
+		"genre": "psychology",
+		"categories": ["best"],
+		"title": "Inventore accusantium, sunt",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-05.jpg"
+	},
+	{
+		"genre": "crime",
+		"categories": ["new"],
+		"title": "Magni reiciendis",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-06.jpg"
+	},
+	{
+		"genre": "medical",
+		"categories": ["best", "used"],
+		"title": "Reprehenderit",
+		"price": "$150",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-07.jpg"
+	},
+	{
+		"genre": "cook",
+		"categories": ["best", "used", "special"],
+		"title": "Cum quaerat culpa",
+		"price": "$100",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-08.jpg"
+	},
+	{
+		"genre": "cook",
+		"categories": ["new"],
+		"title": "Vitae perferendis animi",
+		"price": "$220",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-11.jpg"
+	},
+	{
+		"genre": "law",
+		"categories": ["best", "new"],
+		"title": "Omnis sed!",
+		"price": "$10",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-12.jpg"
+	},
+	{
+		"genre": "business",
+		"categories": ["best", "new"],
+		"title": "Nesciunt repellendus corrupti",
+		"price": "$152",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-09.jpg"
+	},
+	{
+		"genre": "science",
+		"categories": ["best"],
+		"title": "Blanditiis, maiores voluptate",
+		"price": "$200",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-10.jpg"
+	},
+	{
+		"genre": "baby",
+		"categories": ["best", "special", "used"],
+		"title": "Debitis, culpa?",
+		"price": "$300",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-15.jpg"
+	},
+	{
+		"genre": "baby",
+		"categories": ["new"],
+		"title": "Debitis quos ipsum",
+		"price": "$205",
+		"discount": false,
+		"link": "book.html",
+		"image": "img/cover-14.jpg"
+	},
+	{
+		"genre": "sports",
+		"categories": ["best", "special", "used", "new"],
+		"title": "Minima ea facilis quasi",
+		"price": "$5",
+		"discount": true,
+		"link": "book.html",
+		"image": "img/cover-13.jpg"
+	}
+]

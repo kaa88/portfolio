@@ -1,0 +1,43 @@
+/* This file contains adaptive CSS support for Internet Explorer. */
+/* Light version. No support under 1000px width. */
+.category {
+	display: -ms-grid;
+	-ms-grid-columns: 95px 30px 270px;
+	-ms-grid-rows: 47px 64px;
+}
+.category__icon {
+	-ms-grid-column: 1;
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 2;
+}
+.category__title {
+	display: inline-block;
+	-ms-grid-column: 3;
+	-ms-grid-row: 1;
+}
+.category__text {
+	-ms-grid-column: 3;
+	-ms-grid-row: 2;
+}
+
+.info__sec--bottom {
+	display: -ms-grid;
+	-ms-grid-columns: 272px 50px 498px;
+}
+.info__sec--bottom .img {
+	-ms-grid-column: 1;
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 3;
+}
+.info__sec--bottom .title {
+	-ms-grid-column: 3;
+	-ms-grid-row: 1;
+}
+.info__sec--bottom .text {
+	-ms-grid-column: 3;
+	-ms-grid-row: 2;
+}
+.info__sec--bottom .button {
+	-ms-grid-column: 3;
+	-ms-grid-row: 3;
+}
